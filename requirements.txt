@@ -1,0 +1,10 @@
+numpy
+pandas
+requests
+python-dotenv
+scikit-learn
+matplotlib
+xgboost
+# not yet needed (tier 3 uses xgboost, not lightgbm):
+# lightgbm
+pytest

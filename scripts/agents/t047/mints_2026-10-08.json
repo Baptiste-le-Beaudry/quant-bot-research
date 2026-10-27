@@ -1,0 +1,716 @@
+{
+ "XsDZMGEU8zadWFCkTtPBoPWYcUX3JHVmghnwf2Mve2q": {
+  "sym": "ADBE",
+  "family": "xstocks",
+  "decimals": 8,
+  "freezeAuthority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
+  "extensions": [
+   "confidentialTransferMint",
+   "defaultAccountState",
+   "metadataPointer",
+   "pausableConfig",
+   "permanentDelegate",
+   "scaledUiAmountConfig",
+   "tokenMetadata",
+   "transferHook"
+  ],
+  "multiplier": 1.0
+ },
+ "XsXcJ6GZ9kVnjqGsjBnktRcuwMBmvKWh8S93RefZ1rF": {
+  "sym": "AMD",
+  "family": "xstocks",
+  "decimals": 8,
+  "freezeAuthority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
+  "extensions": [
+   "confidentialTransferMint",
+   "defaultAccountState",
+   "metadataPointer",
+   "pausableConfig",
+   "permanentDelegate",
+   "scaledUiAmountConfig",
+   "tokenMetadata",
+   "transferHook"
+  ],
+  "multiplier": 1.0
+ },
+ "Xs3eBt7uRfJX8QUs4suhyU8p2M6DoUDrJyWBa8LLZsg": {
+  "sym": "AMZN",
+  "family": "xstocks",
+  "decimals": 8,
+  "freezeAuthority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
+  "extensions": [
+   "confidentialTransferMint",
+   "defaultAccountState",
+   "metadataPointer",
+   "pausableConfig",
+   "permanentDelegate",
+   "scaledUiAmountConfig",
+   "tokenMetadata",
+   "transferHook"
+  ],
+  "multiplier": 1.0
+ },
+ "XsgSaSvNSqLTtFuyWPBhK9196Xb9Bbdyjj4fH3cPJGo": {
+  "sym": "AVGO",
+  "family": "xstocks",
+  "decimals": 8,
+  "freezeAuthority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
+  "extensions": [
+   "confidentialTransferMint",
+   "defaultAccountState",
+   "metadataPointer",
+   "pausableConfig",
+   "permanentDelegate",
+   "scaledUiAmountConfig",
+   "tokenMetadata",
+   "transferHook"
+  ],
+  "multiplier": 1.0061623180646875
+ },
+ "XsJBX1kSf58ymLVKFSm2MkbLtsPiVRMWTvkvF7TSiVT": {
+  "sym": "BABA",
+  "family": "xstocks",
+  "decimals": 8,
+  "freezeAuthority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
+  "extensions": [
+   "confidentialTransferMint",
+   "defaultAccountState",
+   "metadataPointer",
+   "pausableConfig",
+   "permanentDelegate",
+   "scaledUiAmountConfig",
+   "tokenMetadata",
+   "transferHook"
+  ],
+  "multiplier": 1.0
+ },
+ "XswsQk4duEQmCbGzfqUUWYmi7pV7xpJ9eEmLHXCaEQP": {
+  "sym": "BAC",
+  "family": "xstocks",
+  "decimals": 8,
+  "freezeAuthority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
+  "extensions": [
+   "confidentialTransferMint",
+   "defaultAccountState",
+   "metadataPointer",
+   "pausableConfig",
+   "permanentDelegate",
+   "scaledUiAmountConfig",
+   "tokenMetadata",
+   "transferHook"
+  ],
+  "multiplier": 1.0179352667683526
+ },
+ "XsczbcQ3zfcgAEt9qHQES8pxKAVG5rujPSHQEXi4kaN": {
+  "sym": "CRM",
+  "family": "xstocks",
+  "decimals": 8,
+  "freezeAuthority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
+  "extensions": [
+   "confidentialTransferMint",
+   "defaultAccountState",
+   "metadataPointer",
+   "pausableConfig",
+   "permanentDelegate",
+   "scaledUiAmountConfig",
+   "tokenMetadata",
+   "transferHook"
+  ],
+  "multiplier": 1.0067077500492987
+ },
+ "Xsr3pdLQyXvDJBFgpR5nexCEZwXvigb8wbPYp4YoNFf": {
+  "sym": "CSCO",
+  "family": "xstocks",
+  "decimals": 8,
+  "freezeAuthority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
+  "extensions": [
+   "confidentialTransferMint",
+   "defaultAccountState",
+   "metadataPointer",
+   "pausableConfig",
+   "permanentDelegate",
+   "scaledUiAmountConfig",
+   "tokenMetadata",
+   "transferHook"
+  ],
+  "multiplier": 1.020838542807334
+ },
+ "Xsg93jDV656ULQ5u9yT2x5DS9b4xGD8aDCtfESSW6Bb": {
+  "sym": "DIS",
+  "family": "xstocks",
+  "decimals": 8,
+  "freezeAuthority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
+  "extensions": [
+   "confidentialTransferMint",
+   "defaultAccountState",
+   "metadataPointer",
+   "pausableConfig",
+   "permanentDelegate",
+   "scaledUiAmountConfig",
+   "tokenMetadata",
+   "transferHook"
+  ],
+  "multiplier": 1.0
+ },
+ "Xsa62P5mvPszXL1krVUnU5ar38bBSVcWAB6fmPCo5Zu": {
+  "sym": "META",
+  "family": "xstocks",
+  "decimals": 8,
+  "freezeAuthority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
+  "extensions": [
+   "confidentialTransferMint",
+   "defaultAccountState",
+   "metadataPointer",
+   "pausableConfig",
+   "permanentDelegate",
+   "scaledUiAmountConfig",
+   "tokenMetadata",
+   "transferHook"
+  ],
+  "multiplier": 1.0028515433272898
+ },
+ "XsCPL9dNWBMvFtTmwcCA5v3xWPSMEBCszbQdiLLq6aN": {
+  "sym": "GOOGL",
+  "family": "xstocks",
+  "decimals": 8,
+  "freezeAuthority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
+  "extensions": [
+   "confidentialTransferMint",
+   "defaultAccountState",
+   "metadataPointer",
+   "pausableConfig",
+   "permanentDelegate",
+   "scaledUiAmountConfig",
+   "tokenMetadata",
+   "transferHook"
+  ],
+  "multiplier": 1.0023772500603487
+ },
+ "XshPgPdXFRWB8tP1j82rebb2Q9rPgGX37RuqzohmArM": {
+  "sym": "INTC",
+  "family": "xstocks",
+  "decimals": 8,
+  "freezeAuthority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
+  "extensions": [
+   "confidentialTransferMint",
+   "defaultAccountState",
+   "metadataPointer",
+   "pausableConfig",
+   "permanentDelegate",
+   "scaledUiAmountConfig",
+   "tokenMetadata",
+   "transferHook"
+  ],
+  "multiplier": 1.0
+ },
+ "XsGVi5eo1Dh2zUpic4qACcjuWGjNv8GCt3dm5XcX6Dn": {
+  "sym": "JNJ",
+  "family": "xstocks",
+  "decimals": 8,
+  "freezeAuthority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
+  "extensions": [
+   "confidentialTransferMint",
+   "defaultAccountState",
+   "metadataPointer",
+   "pausableConfig",
+   "permanentDelegate",
+   "scaledUiAmountConfig",
+   "tokenMetadata",
+   "transferHook"
+  ],
+  "multiplier": 1.0195885202077413
+ },
+ "XsaBXg8dU5cPM6ehmVctMkVqoiRG2ZjMo1cyBJ3AykQ": {
+  "sym": "KO",
+  "family": "xstocks",
+  "decimals": 8,
+  "freezeAuthority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
+  "extensions": [
+   "confidentialTransferMint",
+   "defaultAccountState",
+   "metadataPointer",
+   "pausableConfig",
+   "permanentDelegate",
+   "scaledUiAmountConfig",
+   "tokenMetadata",
+   "transferHook"
+  ],
+  "multiplier": 1.0225601246249238
+ },
+ "XsqE9cRRpzxcGKDXj1BJ7Xmg4GRhZoyY1KpmGSxAWT2": {
+  "sym": "MCD",
+  "family": "xstocks",
+  "decimals": 8,
+  "freezeAuthority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
+  "extensions": [
+   "confidentialTransferMint",
+   "defaultAccountState",
+   "metadataPointer",
+   "pausableConfig",
+   "permanentDelegate",
+   "scaledUiAmountConfig",
+   "tokenMetadata",
+   "transferHook"
+  ],
+  "multiplier": 1.0211807004882871
+ },
+ "XsQLZycSZ7QnBBdBXQaTbQdiUcbRqjNJgyBGAMzhHav": {
+  "sym": "MU",
+  "family": "xstocks",
+  "decimals": 8,
+  "freezeAuthority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
+  "extensions": [
+   "confidentialTransferMint",
+   "defaultAccountState",
+   "metadataPointer",
+   "pausableConfig",
+   "permanentDelegate",
+   "scaledUiAmountConfig",
+   "tokenMetadata",
+   "transferHook"
+  ],
+  "multiplier": 1.0004015986353854
+ },
+ "XsEH7wWfJJu2ZT3UCFeVfALnVA6CP5ur7Ee11KmzVpL": {
+  "sym": "NFLX",
+  "family": "xstocks",
+  "decimals": 8,
+  "freezeAuthority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
+  "extensions": [
+   "confidentialTransferMint",
+   "defaultAccountState",
+   "metadataPointer",
+   "pausableConfig",
+   "permanentDelegate",
+   "scaledUiAmountConfig",
+   "tokenMetadata",
+   "transferHook"
+  ],
+  "multiplier": 10.0
+ },
+ "Xsv99frTRUeornyvCfvhnDesQDWuvns1M852Pez91vF": {
+  "sym": "PEP",
+  "family": "xstocks",
+  "decimals": 8,
+  "freezeAuthority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
+  "extensions": [
+   "confidentialTransferMint",
+   "defaultAccountState",
+   "metadataPointer",
+   "pausableConfig",
+   "permanentDelegate",
+   "scaledUiAmountConfig",
+   "tokenMetadata",
+   "transferHook"
+  ],
+  "multiplier": 1.0344000941634355
+ },
+ "XsYdjDjNUygZ7yGKfQaB6TxLh2gC6RRjzLtLAGJrhzV": {
+  "sym": "PG",
+  "family": "xstocks",
+  "decimals": 8,
+  "freezeAuthority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
+  "extensions": [
+   "confidentialTransferMint",
+   "defaultAccountState",
+   "metadataPointer",
+   "pausableConfig",
+   "permanentDelegate",
+   "scaledUiAmountConfig",
+   "tokenMetadata",
+   "transferHook"
+  ],
+  "multiplier": 1.021558909374661
+ },
+ "XsoBhf2ufR8fTyNSjqfU71DYGaE6Z3SUGAidpzriAA4": {
+  "sym": "PLTR",
+  "family": "xstocks",
+  "decimals": 8,
+  "freezeAuthority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
+  "extensions": [
+   "confidentialTransferMint",
+   "defaultAccountState",
+   "metadataPointer",
+   "pausableConfig",
+   "permanentDelegate",
+   "scaledUiAmountConfig",
+   "tokenMetadata",
+   "transferHook"
+  ],
+  "multiplier": 1.0
+ },
+ "XshWQWYVp5ff8CrAEsGmLVKD47nBWi3Ygn5v8wXK27G": {
+  "sym": "PYPL",
+  "family": "xstocks",
+  "decimals": 8,
+  "freezeAuthority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
+  "extensions": [
+   "confidentialTransferMint",
+   "defaultAccountState",
+   "metadataPointer",
+   "pausableConfig",
+   "permanentDelegate",
+   "scaledUiAmountConfig",
+   "tokenMetadata",
+   "transferHook"
+  ],
+  "multiplier": 1.0040286411936261
+ },
+ "XsUUG8bjFN2KvzLTpzavvEKdAjMAeLTZiTeAQJ9uhvB": {
+  "sym": "QCOM",
+  "family": "xstocks",
+  "decimals": 8,
+  "freezeAuthority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
+  "extensions": [
+   "confidentialTransferMint",
+   "defaultAccountState",
+   "metadataPointer",
+   "pausableConfig",
+   "permanentDelegate",
+   "scaledUiAmountConfig",
+   "tokenMetadata",
+   "transferHook"
+  ],
+  "multiplier": 1.003789126853
+ },
+ "XsU4fHhJEFcrwNh4RYuHmWdaoCfsrWKEm4UEs3zTJwH": {
+  "sym": "TXN",
+  "family": "xstocks",
+  "decimals": 8,
+  "freezeAuthority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
+  "extensions": [
+   "confidentialTransferMint",
+   "defaultAccountState",
+   "metadataPointer",
+   "pausableConfig",
+   "permanentDelegate",
+   "scaledUiAmountConfig",
+   "tokenMetadata",
+   "transferHook"
+  ],
+  "multiplier": 1.003565791362
+ },
+ "XsAsZLF4MmsvS1sDxRMrUz7REjHfwbC9UAMXSRBqgEB": {
+  "sym": "UBER",
+  "family": "xstocks",
+  "decimals": 8,
+  "freezeAuthority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
+  "extensions": [
+   "confidentialTransferMint",
+   "defaultAccountState",
+   "metadataPointer",
+   "pausableConfig",
+   "permanentDelegate",
+   "scaledUiAmountConfig",
+   "tokenMetadata",
+   "transferHook"
+  ],
+  "multiplier": 1.0
+ },
+ "XsqgsbXwWogGJsNcVZ3TyVouy2MbTkfCFhCGGGcQZ2p": {
+  "sym": "V",
+  "family": "xstocks",
+  "decimals": 8,
+  "freezeAuthority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
+  "extensions": [
+   "confidentialTransferMint",
+   "defaultAccountState",
+   "metadataPointer",
+   "pausableConfig",
+   "permanentDelegate",
+   "scaledUiAmountConfig",
+   "tokenMetadata",
+   "transferHook"
+  ],
+  "multiplier": 1.0066699189441244
+ },
+ "Xs151QeqTCiuKtinzfRATnUESM2xTU6V9Wy8Vy538ci": {
+  "sym": "WMT",
+  "family": "xstocks",
+  "decimals": 8,
+  "freezeAuthority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
+  "extensions": [
+   "confidentialTransferMint",
+   "defaultAccountState",
+   "metadataPointer",
+   "pausableConfig",
+   "permanentDelegate",
+   "scaledUiAmountConfig",
+   "tokenMetadata",
+   "transferHook"
+  ],
+  "multiplier": 1.0071845610241497
+ },
+ "XsaHND8sHyfMfsWPj6kSdd5VwvCayZvjYgKmmcNL5qh": {
+  "sym": "XOM",
+  "family": "xstocks",
+  "decimals": 8,
+  "freezeAuthority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
+  "extensions": [
+   "confidentialTransferMint",
+   "defaultAccountState",
+   "metadataPointer",
+   "pausableConfig",
+   "permanentDelegate",
+   "scaledUiAmountConfig",
+   "tokenMetadata",
+   "transferHook"
+  ],
+  "multiplier": 1.017648970535191
+ },
+ "XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W": {
+  "sym": "SPY",
+  "family": "xstocks",
+  "decimals": 8,
+  "freezeAuthority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
+  "extensions": [
+   "confidentialTransferMint",
+   "defaultAccountState",
+   "metadataPointer",
+   "pausableConfig",
+   "permanentDelegate",
+   "scaledUiAmountConfig",
+   "tokenMetadata",
+   "transferHook"
+  ],
+  "multiplier": 1.005714560286254
+ },
+ "Xs8S1uUs1zvS2p7iwtsG3b6fkhpvmwz4GYU3gWAmWHZ": {
+  "sym": "QQQ",
+  "family": "xstocks",
+  "decimals": 8,
+  "freezeAuthority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
+  "extensions": [
+   "confidentialTransferMint",
+   "defaultAccountState",
+   "metadataPointer",
+   "pausableConfig",
+   "permanentDelegate",
+   "scaledUiAmountConfig",
+   "tokenMetadata",
+   "transferHook"
+  ],
+  "multiplier": 1.0034560758968376
+ },
+ "AMD8XwJXgQ9WV45Wyj9yFLejxzf2J6VM1PJY8bJEjeES": {
+  "sym": "AMD",
+  "family": "backpack",
+  "decimals": 6,
+  "freezeAuthority": "2cVYpagTt7ZGc3mmTXBa7fAznUtx5DUu6aCq8uVDaf4a",
+  "extensions": [
+   "confidentialTransferMint",
+   "defaultAccountState",
+   "metadataPointer",
+   "pausableConfig",
+   "permanentDelegate",
+   "scaledUiAmountConfig",
+   "tokenMetadata",
+   "transferHook"
+  ],
+  "multiplier": 1.0
+ },
+ "BArimz1PcKZr8PcPh3tcZ2dg4S7FJLk3cw6R5F8GsHKg": {
+  "sym": "BA",
+  "family": "backpack",
+  "decimals": 6,
+  "freezeAuthority": "2cVYpagTt7ZGc3mmTXBa7fAznUtx5DUu6aCq8uVDaf4a",
+  "extensions": [
+   "confidentialTransferMint",
+   "defaultAccountState",
+   "metadataPointer",
+   "pausableConfig",
+   "permanentDelegate",
+   "scaledUiAmountConfig",
+   "tokenMetadata",
+   "transferHook"
+  ],
+  "multiplier": 1.0
+ },
+ "BABANGA4JE7Kkam4nTrALAwAVgsNJUuFJnnkF7S16BZp": {
+  "sym": "BABA",
+  "family": "backpack",
+  "decimals": 6,
+  "freezeAuthority": "2cVYpagTt7ZGc3mmTXBa7fAznUtx5DUu6aCq8uVDaf4a",
+  "extensions": [
+   "confidentialTransferMint",
+   "defaultAccountState",
+   "metadataPointer",
+   "pausableConfig",
+   "permanentDelegate",
+   "scaledUiAmountConfig",
+   "tokenMetadata",
+   "transferHook"
+  ],
+  "multiplier": 1.0
+ },
+ "CZEB3WNZuF2Yz1z2H81RcCk8T7fsw82KB33zqamASVsg": {
+  "sym": "COST",
+  "family": "backpack",
+  "decimals": 6,
+  "freezeAuthority": "2cVYpagTt7ZGc3mmTXBa7fAznUtx5DUu6aCq8uVDaf4a",
+  "extensions": [
+   "confidentialTransferMint",
+   "defaultAccountState",
+   "metadataPointer",
+   "pausableConfig",
+   "permanentDelegate",
+   "scaledUiAmountConfig",
+   "tokenMetadata",
+   "transferHook"
+  ],
+  "multiplier": 1.0
+ },
+ "iNTCy1qTsUEZQe3DSocLz1ZXXai34Gdw8THQh5rxFaF": {
+  "sym": "INTC",
+  "family": "backpack",
+  "decimals": 6,
+  "freezeAuthority": "2cVYpagTt7ZGc3mmTXBa7fAznUtx5DUu6aCq8uVDaf4a",
+  "extensions": [
+   "confidentialTransferMint",
+   "defaultAccountState",
+   "metadataPointer",
+   "pausableConfig",
+   "permanentDelegate",
+   "scaledUiAmountConfig",
+   "tokenMetadata",
+   "transferHook"
+  ],
+  "multiplier": 1.0
+ },
+ "JNJg1znKdF712Phe7L7z52AATAvEjEytBdN2w8Lnh1Y": {
+  "sym": "JNJ",
+  "family": "backpack",
+  "decimals": 6,
+  "freezeAuthority": "2cVYpagTt7ZGc3mmTXBa7fAznUtx5DUu6aCq8uVDaf4a",
+  "extensions": [
+   "confidentialTransferMint",
+   "defaultAccountState",
+   "metadataPointer",
+   "pausableConfig",
+   "permanentDelegate",
+   "scaledUiAmountConfig",
+   "tokenMetadata",
+   "transferHook"
+  ],
+  "multiplier": 1.0
+ },
+ "MUxEsUKSMACyw5fZf68wxf5FLnZVhtU9CwH8uNNGay1": {
+  "sym": "MU",
+  "family": "backpack",
+  "decimals": 6,
+  "freezeAuthority": "2cVYpagTt7ZGc3mmTXBa7fAznUtx5DUu6aCq8uVDaf4a",
+  "extensions": [
+   "confidentialTransferMint",
+   "defaultAccountState",
+   "metadataPointer",
+   "pausableConfig",
+   "permanentDelegate",
+   "scaledUiAmountConfig",
+   "tokenMetadata",
+   "transferHook"
+  ],
+  "multiplier": 1.0001069378262764
+ },
+ "NFLX7qV57zuVxCoHy3s1jiGZyALraLNwttbxdvmYJLJ": {
+  "sym": "NFLX",
+  "family": "backpack",
+  "decimals": 6,
+  "freezeAuthority": "2cVYpagTt7ZGc3mmTXBa7fAznUtx5DUu6aCq8uVDaf4a",
+  "extensions": [
+   "confidentialTransferMint",
+   "defaultAccountState",
+   "metadataPointer",
+   "pausableConfig",
+   "permanentDelegate",
+   "scaledUiAmountConfig",
+   "tokenMetadata",
+   "transferHook"
+  ],
+  "multiplier": 1.0
+ },
+ "XsM1FstDXh1pA4uNXzvJdAop9SRJnnRdWt2o8A2mLpN": {
+  "sym": "C",
+  "family": "xstocks",
+  "decimals": 8,
+  "freezeAuthority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
+  "extensions": [
+   "confidentialTransferMint",
+   "defaultAccountState",
+   "metadataPointer",
+   "pausableConfig",
+   "permanentDelegate",
+   "scaledUiAmountConfig",
+   "tokenMetadata",
+   "transferHook"
+  ],
+  "multiplier": 1.003540958852
+ },
+ "XsApJFV9MAktqnAc6jqzsHVujxkGm9xcSUffaBoYLKC": {
+  "sym": "MA",
+  "family": "xstocks",
+  "decimals": 8,
+  "freezeAuthority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
+  "extensions": [
+   "confidentialTransferMint",
+   "defaultAccountState",
+   "metadataPointer",
+   "pausableConfig",
+   "permanentDelegate",
+   "scaledUiAmountConfig",
+   "tokenMetadata",
+   "transferHook"
+  ],
+  "multiplier": 1.0047223563218923
+ },
+ "XsDoVfqeBukxuZHWhdvWHBhgEHjGNst4MLodqsJHzoB": {
+  "sym": "TSLA",
+  "family": "xstocks",
+  "decimals": 8,
+  "freezeAuthority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
+  "extensions": [
+   "confidentialTransferMint",
+   "defaultAccountState",
+   "metadataPointer",
+   "pausableConfig",
+   "permanentDelegate",
+   "scaledUiAmountConfig",
+   "tokenMetadata",
+   "transferHook"
+  ],
+  "multiplier": 1.0
+ },
+ "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh": {
+  "sym": "NVDA",
+  "family": "xstocks",
+  "decimals": 8,
+  "freezeAuthority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
+  "extensions": [
+   "confidentialTransferMint",
+   "defaultAccountState",
+   "metadataPointer",
+   "pausableConfig",
+   "permanentDelegate",
+   "scaledUiAmountConfig",
+   "tokenMetadata",
+   "transferHook"
+  ],
+  "multiplier": 1.001701196801074
+ },
+ "XsbEhLAtcf6HdfpFZ5xEMdqW8nfAvcsP5bdudRLJzJp": {
+  "sym": "AAPL",
+  "family": "xstocks",
+  "decimals": 8,
+  "freezeAuthority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
+  "extensions": [
+   "confidentialTransferMint",
+   "defaultAccountState",
+   "metadataPointer",
+   "pausableConfig",
+   "permanentDelegate",
+   "scaledUiAmountConfig",
+   "tokenMetadata",
+   "transferHook"
+  ],
+  "multiplier": 1.0032690125398187
+ }
+}
