@@ -1,0 +1,35 @@
+{
+  "prereg": "docs/agents/hypotheses/Exp-66.md",
+  "engine": "scripts/agents/exp66_hours.py",
+  "selection_file": "docs/agents/results/Exp-66_2026-10-08_selection_P1.json",
+  "selection_commit": "dc6a10d",
+  "verdict": "REJET",
+  "stage_reached": "P1 selection; P2 not computed (preregistration, selection step 3)",
+  "period_P1": ["2021-01-01 00:00 UTC", "2025-01-01 00:00 UTC (exclusive)"],
+  "criteria_P1": {
+    "top2_by_pooled_mean_net": [
+      {"hour_utc": 0, "mean_net_pct": 0.00293, "t_pooled": 0.164, "t_daily": 0.112, "passes_t_ge_2_5": false},
+      {"hour_utc": 21, "mean_net_pct": 0.00168, "t_pooled": 0.112, "t_daily": 0.074, "passes_t_ge_2_5": false}
+    ],
+    "retained_hours": [],
+    "max_t_pooled_over_24_hours": 0.164,
+    "hours_with_mean_net_gt0": [0, 21, 22],
+    "hours_with_mean_gross_gt0": 18
+  },
+  "criteria_P2": "not computed (REJET at P1)",
+  "cost_rt_per_trade": 0.00037241,
+  "cost_convention": "0.02 % RT (/build) + 2 x 0.01 USD per swap on 116 USD",
+  "fill": "open of HH:00 -> open of HH+1:00 (UTC); both bars required, missing bars dropped (never filled)",
+  "t_definition": "t_decisional = min(t on pooled symbol-hours, t on equal-weight daily portfolio return of the hour); irrelevant here (max t over 24 hours = 0.16 under either)",
+  "category": "en echantillon (P1 only)",
+  "multiple_testing": {"hours_examined_P1": 24, "hours_retained": 0, "decision_rules_P2": 0},
+  "n_obs_P1": 105192,
+  "data": {
+    "source": "docs/_full_data_cache/{SOLUSDT,BTCUSDT,ETHUSDT}_full.pkl (read only)",
+    "SOLUSDT": {"first_bar": "2020-09-14 07:00", "last_bar": "2026-08-20 06:24", "hours_dropped_all_history": 1},
+    "BTCUSDT": {"first_bar": "2019-09-08 17:57", "last_bar": "2026-08-17 00:00", "hours_dropped_all_history": 2},
+    "ETHUSDT": {"first_bar": "2019-11-27 07:45", "last_bar": "2026-08-17 00:00", "hours_dropped_all_history": 1},
+    "P1_obs_per_hour": 4383,
+    "P1_complete": "1461 days x 3 symbols for every hour"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "harness_version": "1.2.0",
+  "platform": "jupiter_build",
+  "p1_half_split": "2024-02-13 13:37:00+00:00",
+  "share_days_above_sma": {
+    "SOLUSDT": 0.4995344506517691,
+    "BTCUSDT": 0.5232419547079857,
+    "ETHUSDT": 0.5104636848584325
+  },
+  "full_reproduces_exp57 [n, cagr, maxdd, n57, cagr57, maxdd57]": {
+    "P1": [
+      1467,
+      26.232113511359856,
+      -24.168443790361017,
+      1467,
+      26.232113511359856,
+      -24.168443790361017
+    ],
+    "P2": [
+      392,
+      7.759531407485065,
+      -18.908403753335833,
+      392,
+      7.759531407485065,
+      -18.908403753335836
+    ]
+  },
+  "criteria": {
+    "delta_P1": 0.20975278544123216,
+    "delta_P1_H1": 0.3250369878030259,
+    "delta_P1_H2": 0.09658529088812673,
+    "delta_P2": -0.11148605573249099,
+    "account": {
+      "P1": {
+        "maxdd_full": -24.168443790361017,
+        "maxdd_half": -15.158207699967917,
+        "maxdd_gain_points": 9.0102360903931,
+        "cagr_full": 26.232113511359856,
+        "cagr_half": 22.72372104777316,
+        "cagr_drop_rel": 0.13374417818325543,
+        "ok": true
+      },
+      "P2": {
+        "maxdd_full": -18.908403753335833,
+        "maxdd_half": -18.909051207540216,
+        "maxdd_gain_points": -0.0006474542043832798,
+        "cagr_full": 7.759531407485065,
+        "cagr_half": 1.649625033495039,
+        "cagr_drop_rel": 0.7874066168604249,
+        "ok": false
+      }
+    },
+    "reject_delta_lt_0.05": false,
+    "reject_halves_sign": false,
+    "reject_p2_sign": true,
+    "mechanical": "REJET",
+    "inverse_result": false
+  }
+}

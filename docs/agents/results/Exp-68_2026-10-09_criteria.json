@@ -1,0 +1,404 @@
+{
+ "data_quality": {
+  "BTCUSDT_P1": {
+   "days": 1639,
+   "days_no_bar": 0,
+   "days_lt_1380_bars": 0,
+   "min_bars": 1440
+  },
+  "BTCUSDT_P2": {
+   "days": 508,
+   "days_no_bar": 0,
+   "days_lt_1380_bars": 0,
+   "min_bars": 1440
+  },
+  "BTCUSDT_first_day": "2019-09-09",
+  "ETHUSDT_P1": {
+   "days": 1639,
+   "days_no_bar": 0,
+   "days_lt_1380_bars": 0,
+   "min_bars": 1440
+  },
+  "ETHUSDT_P2": {
+   "days": 508,
+   "days_no_bar": 0,
+   "days_lt_1380_bars": 0,
+   "min_bars": 1440
+  },
+  "ETHUSDT_first_day": "2019-11-28",
+  "SOLUSDT_P1": {
+   "days": 1639,
+   "days_no_bar": 0,
+   "days_lt_1380_bars": 0,
+   "min_bars": 1440
+  },
+  "SOLUSDT_P2": {
+   "days": 508,
+   "days_no_bar": 0,
+   "days_lt_1380_bars": 0,
+   "min_bars": 1440
+  },
+  "SOLUSDT_first_day": "2020-09-15"
+ },
+ "periods": {
+  "P1": [
+   "2020-10-01",
+   "2025-03-27"
+  ],
+  "P2": [
+   "2025-03-28",
+   "2026-08-17"
+  ]
+ },
+ "conventions": {
+  "fill": "close-to-close daily, decision at close J (00:00 UTC price = close of the 1m bar opening 23:59), held over J+1; rebalanced daily to target; idealised fill at the 00:00 close, no slippage beyond the round-trip cost",
+  "cost_rt_main": 0.0005,
+  "cost_rt_stress": {
+   "BTCUSDT": 0.002,
+   "ETHUSDT": 0.002,
+   "SOLUSDT": 0.0005
+  },
+  "turnover": "|w_J - drifted w_J| (incl. drift)",
+  "cash_yield_decision": 0.0,
+  "sharpe": "mean/std*sqrt(365.25), daily net returns, no risk-free",
+  "maxdd": "equity starts at 1 at the beginning of the period",
+  "category": "P1 en echantillon (deja vu) ; P2 hors echantillon pour la regle mais regime connu (Exp 56)"
+ },
+ "P1": {
+  "strategy": {
+   "n_days": 1639,
+   "cagr": 0.218,
+   "vol": 0.1166,
+   "sharpe": 1.7499,
+   "maxdd": -0.1273,
+   "total": 1.4228,
+   "worst_day": -0.0363,
+   "worst_day_date": "2024-03-20"
+  },
+  "basket_rebalanced_daily": {
+   "n_days": 1639,
+   "cagr": 0.9936,
+   "vol": 0.7795,
+   "sharpe": 1.2778,
+   "maxdd": -0.8514,
+   "total": 21.1098,
+   "worst_day": -0.2749,
+   "worst_day_date": "2022-11-10"
+  },
+  "basket_buy_and_hold": {
+   "n_days": 1639,
+   "cagr": 0.9503,
+   "vol": 0.9174,
+   "sharpe": 1.193,
+   "maxdd": -0.9231,
+   "total": 19.0343,
+   "worst_day": -0.3702,
+   "worst_day_date": "2022-11-10"
+  },
+  "gross_no_cost": {
+   "n_days": 1639,
+   "cagr": 0.2198,
+   "vol": 0.1166,
+   "sharpe": 1.7629,
+   "maxdd": -0.1262,
+   "total": 1.4394,
+   "worst_day": -0.0363,
+   "worst_day_date": "2024-03-20"
+  },
+  "stress_cost_btceth_0.20": {
+   "n_days": 1639,
+   "cagr": 0.2136,
+   "vol": 0.1166,
+   "sharpe": 1.7191,
+   "maxdd": -0.1297,
+   "total": 1.3839,
+   "worst_day": -0.0363,
+   "worst_day_date": "2024-03-20"
+  },
+  "cash_kamino": {
+   "n_days": 1639,
+   "cagr": 0.2734,
+   "vol": 0.1165,
+   "sharpe": 2.1326,
+   "maxdd": -0.0898,
+   "total": 1.9582,
+   "worst_day": -0.036,
+   "worst_day_date": "2024-03-20"
+  },
+  "cash_kamino_coverage_days": 532,
+  "cash_kamino_mean_apy_covered": 0.0888,
+  "cash_4pct_const": {
+   "n_days": 1639,
+   "cagr": 0.2593,
+   "vol": 0.1166,
+   "sharpe": 2.0363,
+   "maxdd": -0.0898,
+   "total": 1.8135,
+   "worst_day": -0.0362,
+   "worst_day_date": "2024-03-20"
+  },
+  "cost_no_drift_turnover": {
+   "n_days": 1639,
+   "cagr": 0.218,
+   "vol": 0.1166,
+   "sharpe": 1.7499,
+   "maxdd": -0.1273,
+   "total": 1.4227,
+   "worst_day": -0.0363,
+   "worst_day_date": "2024-03-20"
+  },
+  "reference_weight_formula": {
+   "n_days": 1639,
+   "cagr": 0.218,
+   "vol": 0.1166,
+   "sharpe": 1.7499,
+   "maxdd": -0.1273,
+   "total": 1.4228,
+   "worst_day": -0.0363,
+   "worst_day_date": "2024-03-20"
+  },
+  "exposure_mean": 0.1507,
+  "exposure_max": 0.5167,
+  "days_invested_frac": 0.8883,
+  "turnover_per_year": 6.077,
+  "turnover_per_year_no_drift": 6.105,
+  "cost_paid_per_year": 0.00152,
+  "swaps_nonzero": 3978,
+  "swaps_ge_1pct_capital": 1006,
+  "swaps_ge_1pct_per_year": 224.2,
+  "state_signal_changes": {
+   "BTCUSDT": 463,
+   "ETHUSDT": 471,
+   "SOLUSDT": 422
+  },
+  "per_year_strategy": {
+   "2020": 0.2066,
+   "2021": 0.3746,
+   "2022": -0.0642,
+   "2023": 0.3236,
+   "2024": 0.2303,
+   "2025": -0.0414
+  },
+  "per_year_basket_rebalanced": {
+   "2020": 0.5053,
+   "2021": 11.5534,
+   "2022": -0.7934,
+   "2023": 2.954,
+   "2024": 0.9049,
+   "2025": -0.2479
+  },
+  "per_asset": {
+   "BTCUSDT": {
+    "contrib_total_sum": 0.3332,
+    "contrib_ann": 0.0742,
+    "mean_weight": 0.0743,
+    "asset_buy_and_hold_total": 7.0164
+   },
+   "ETHUSDT": {
+    "contrib_total_sum": 0.2291,
+    "contrib_ann": 0.0511,
+    "mean_weight": 0.0482,
+    "asset_buy_and_hold_total": 4.5843
+   },
+   "SOLUSDT": {
+    "contrib_total_sum": 0.3533,
+    "contrib_ann": 0.0787,
+    "mean_weight": 0.0281,
+    "asset_buy_and_hold_total": 45.502
+   }
+  },
+  "worst_5_days": {
+   "2024-03-20": -0.0363,
+   "2021-05-20": -0.0354,
+   "2021-01-22": -0.0301,
+   "2023-11-17": -0.0252,
+   "2020-11-27": -0.025
+  }
+ },
+ "P2": {
+  "strategy": {
+   "n_days": 508,
+   "cagr": -0.0052,
+   "vol": 0.0762,
+   "sharpe": -0.0304,
+   "maxdd": -0.1169,
+   "total": -0.0072,
+   "worst_day": -0.0266,
+   "worst_day_date": "2025-10-11"
+  },
+  "basket_rebalanced_daily": {
+   "n_days": 508,
+   "cagr": -0.1932,
+   "vol": 0.5716,
+   "sharpe": -0.0902,
+   "maxdd": -0.6432,
+   "total": -0.2581,
+   "worst_day": -0.1467,
+   "worst_day_date": "2026-02-06"
+  },
+  "basket_buy_and_hold": {
+   "n_days": 508,
+   "cagr": -0.1997,
+   "vol": 0.5753,
+   "sharpe": -0.1001,
+   "maxdd": -0.6456,
+   "total": -0.2665,
+   "worst_day": -0.1468,
+   "worst_day_date": "2026-02-06"
+  },
+  "gross_no_cost": {
+   "n_days": 508,
+   "cagr": -0.0035,
+   "vol": 0.0762,
+   "sharpe": -0.008,
+   "maxdd": -0.1154,
+   "total": -0.0049,
+   "worst_day": -0.0266,
+   "worst_day_date": "2025-10-11"
+  },
+  "stress_cost_btceth_0.20": {
+   "n_days": 508,
+   "cagr": -0.009,
+   "vol": 0.0762,
+   "sharpe": -0.0808,
+   "maxdd": -0.1203,
+   "total": -0.0125,
+   "worst_day": -0.0266,
+   "worst_day_date": "2025-10-11"
+  },
+  "cash_kamino": {
+   "n_days": 508,
+   "cagr": 0.0303,
+   "vol": 0.0762,
+   "sharpe": 0.4299,
+   "maxdd": -0.0912,
+   "total": 0.0424,
+   "worst_day": -0.0265,
+   "worst_day_date": "2025-10-11"
+  },
+  "cash_kamino_coverage_days": 508,
+  "cash_kamino_mean_apy_covered": 0.0416,
+  "cash_4pct_const": {
+   "n_days": 508,
+   "cagr": 0.0295,
+   "vol": 0.0762,
+   "sharpe": 0.4194,
+   "maxdd": -0.0891,
+   "total": 0.0412,
+   "worst_day": -0.0265,
+   "worst_day_date": "2025-10-11"
+  },
+  "cost_no_drift_turnover": {
+   "n_days": 508,
+   "cagr": -0.0052,
+   "vol": 0.0762,
+   "sharpe": -0.0307,
+   "maxdd": -0.1169,
+   "total": -0.0073,
+   "worst_day": -0.0266,
+   "worst_day_date": "2025-10-11"
+  },
+  "reference_weight_formula": {
+   "n_days": 508,
+   "cagr": -0.0052,
+   "vol": 0.0762,
+   "sharpe": -0.0304,
+   "maxdd": -0.1169,
+   "total": -0.0072,
+   "worst_day": -0.0266,
+   "worst_day_date": "2025-10-11"
+  },
+  "exposure_mean": 0.1265,
+  "exposure_max": 0.4989,
+  "days_invested_frac": 0.7874,
+  "turnover_per_year": 6.835,
+  "turnover_per_year_no_drift": 6.928,
+  "cost_paid_per_year": 0.00171,
+  "swaps_nonzero": 1048,
+  "swaps_ge_1pct_capital": 365,
+  "swaps_ge_1pct_per_year": 262.4,
+  "state_signal_changes": {
+   "BTCUSDT": 134,
+   "ETHUSDT": 122,
+   "SOLUSDT": 133
+  },
+  "per_year_strategy": {
+   "2025": 0.0343,
+   "2026": -0.0401
+  },
+  "per_year_basket_rebalanced": {
+   "2025": 0.1414,
+   "2026": -0.35
+  },
+  "per_asset": {
+   "BTCUSDT": {
+    "contrib_total_sum": -0.0065,
+    "contrib_ann": -0.0047,
+    "mean_weight": 0.0727,
+    "asset_buy_and_hold_total": -0.2762
+   },
+   "ETHUSDT": {
+    "contrib_total_sum": 0.0202,
+    "contrib_ann": 0.0145,
+    "mean_weight": 0.0332,
+    "asset_buy_and_hold_total": -0.0664
+   },
+   "SOLUSDT": {
+    "contrib_total_sum": -0.0169,
+    "contrib_ann": -0.0122,
+    "mean_weight": 0.0206,
+    "asset_buy_and_hold_total": -0.4567
+   }
+  },
+  "worst_5_days": {
+   "2025-10-11": -0.0266,
+   "2025-08-26": -0.0216,
+   "2025-08-15": -0.0207,
+   "2025-07-24": -0.0145,
+   "2025-10-08": -0.0136
+  },
+  "criteria": {
+   "pass_conditions": {
+    "sharpe_ge_0.5": false,
+    "maxdd_ge_-15pct": true,
+    "cagr_gt_0": false,
+    "sharpe_gt_basket": true
+   },
+   "reject_conditions": {
+    "sharpe_le_0": true,
+    "maxdd_lt_-20pct": false
+   },
+   "verdict": "REJET",
+   "basket_sharpe_used": -0.0902,
+   "basket_sharpe_used_note": "max(daily-rebalanced, buy-and-hold) : la plus defavorable a la strategie"
+  }
+ },
+ "reference_reproduction_P1": {
+  "n_days": 1639,
+  "cagr": 0.2161,
+  "vol": 0.1163,
+  "sharpe": 1.7411,
+  "maxdd": -0.1269,
+  "total": 1.406,
+  "worst_day": -0.0357,
+  "worst_day_date": "2024-03-20",
+  "maxdd_reference_convention": -0.1269
+ },
+ "reference_reproduction_P2": {
+  "n_days": 508,
+  "cagr": -0.0076,
+  "vol": 0.076,
+  "sharpe": -0.0625,
+  "maxdd": -0.1192,
+  "total": -0.0106,
+  "worst_day": -0.0273,
+  "worst_day_date": "2025-10-11",
+  "maxdd_reference_convention": -0.1192
+ },
+ "sigma_min_when_invested": {
+  "BTCUSDT": 0.2638,
+  "ETHUSDT": 0.3025,
+  "SOLUSDT": 0.4299
+ },
+ "weights_text_vs_reference_max_abs_diff": 0.0
+}

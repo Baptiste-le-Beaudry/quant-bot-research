@@ -1,0 +1,603 @@
+{
+ "missing_tickers": [
+  "T-A.TO"
+ ],
+ "counts": {
+  "table_discount_ca": 238,
+  "table_none_ca": 534,
+  "table_undocumented_ca": 66,
+  "measured_discount_ca": 233,
+  "measured_none_ca": 531
+ },
+ "did_main": {
+  "A": {
+   "n": 764,
+   "n_discount": 233,
+   "n_none": 531,
+   "mean_discount": -0.007492373105712826,
+   "mean_none": 0.0016481603104968154,
+   "did": -0.00914053341620964,
+   "se": 0.002235520638945025,
+   "t": -4.088771652103016,
+   "clusters": 656
+  },
+  "B": {
+   "n": 764,
+   "n_discount": 233,
+   "n_none": 531,
+   "mean_discount": 0.00646924184065957,
+   "mean_none": -0.0010466804774972003,
+   "did": 0.007515922318156771,
+   "se": 0.0021143855442768045,
+   "t": 3.5546602834571903,
+   "clusters": 656
+  },
+  "VOL": {
+   "n": 764,
+   "n_discount": 233,
+   "n_none": 531,
+   "mean_discount": 0.09323730656249583,
+   "mean_none": -0.12763454846487685,
+   "did": 0.22087185502737267,
+   "se": 0.026674604606419364,
+   "t": 8.280229764838534,
+   "clusters": 656
+  },
+  "issuers": [
+   "BCE.TO",
+   "BMO.TO",
+   "BNS.TO",
+   "CM.TO",
+   "ENB.TO",
+   "MFC.TO",
+   "PPL.TO",
+   "RY.TO",
+   "SLF.TO",
+   "T.TO",
+   "TD.TO",
+   "TRP.TO"
+  ]
+ },
+ "rule_per_event": {
+  "n": 233,
+  "mean_net": 0.0029468856208900327,
+  "median_net": 0.0017709062405979487,
+  "hit_rate": 0.5407725321888412,
+  "t": 1.876384223605993
+ },
+ "robustness": {
+  "a_banques": {
+   "n": 337,
+   "n_discount": 97,
+   "n_none": 240,
+   "mean_discount": -0.011293776361919023,
+   "mean_none": 0.0037393343969346505,
+   "did": -0.015033110758853675,
+   "se": 0.0020813627319642663,
+   "t": -7.222725057955813,
+   "clusters": 321
+  },
+  "b_non_banques": {
+   "n": 427,
+   "n_discount": 136,
+   "n_none": 291,
+   "mean_discount": -0.004781078136212817,
+   "mean_none": -7.651934842098658e-05,
+   "did": -0.004704558787791829,
+   "se": 0.0035415188845635223,
+   "t": -1.3284014404942661,
+   "clusters": 389
+  },
+  "c_2022_2024": {
+   "n": 70,
+   "n_discount": 35,
+   "n_none": 35,
+   "mean_discount": -0.01549789953536593,
+   "mean_none": 0.00841413357215864,
+   "did": -0.023912033107524572,
+   "se": 0.00457675584667367,
+   "t": -5.2246687191984575,
+   "clusters": 57
+  },
+  "d_vs_gsptse": {
+   "n": 764,
+   "n_discount": 233,
+   "n_none": 531,
+   "mean_discount": -0.006867678432062881,
+   "mean_none": 0.0028340337252467903,
+   "did": -0.009701712157309672,
+   "se": 0.0022688737502616413,
+   "t": -4.276003526503356,
+   "clusters": 656
+  }
+ },
+ "australia": {
+  "n": 42,
+  "n_discount": 4,
+  "n_none": 38,
+  "mean_discount": -0.027136510896893534,
+  "mean_none": -0.004224018130707098,
+  "did": -0.022912492766186437,
+  "se": 0.009578700515545222,
+  "t": -2.392025173874251,
+  "clusters": 41,
+  "issuers": [
+   "ANZ.AX",
+   "NAB.AX",
+   "WBC.AX"
+  ],
+  "did_vol": {
+   "n": 42,
+   "n_discount": 4,
+   "n_none": 38,
+   "mean_discount": 0.16550104593274093,
+   "mean_none": -0.02544157425192826,
+   "did": 0.19094262018466918,
+   "se": 0.032667912353932134,
+   "t": 5.8449593630578605,
+   "clusters": 41
+  }
+ },
+ "australia_n_discount_measured": 4,
+ "portfolio": {
+  "start": "2003-01-24",
+  "end": "2026-07-10",
+  "cagr": 0.17619497928286898,
+  "vol": 0.19456122890359076,
+  "sharpe": 0.8398790591412973,
+  "maxdd": -0.5236663766082468,
+  "L_ref": 1.0468496625848607,
+  "ref_cagr": 0.15051807498467262,
+  "ref_sharpe": 0.7260691147726953,
+  "ref_maxdd": -0.5588986890561921,
+  "dsharpe": 0.11380994436860203,
+  "n": 5892
+ },
+ "dsr": {
+  "N133": {
+   "T": 5892,
+   "sr_ann": 0.8398790591412973,
+   "sr0_ann": 0.2934364966777969,
+   "skew": 0.4616878564626663,
+   "kurt": 28.040487149533952,
+   "dsr": 0.9959675063397899,
+   "n_trials": 133,
+   "sd_sr_ann": 0.1116
+  },
+  "N96": {
+   "T": 5892,
+   "sr_ann": 0.8398790591412973,
+   "sr0_ann": 0.2808086760803117,
+   "skew": 0.4616878564626663,
+   "kurt": 28.040487149533952,
+   "dsr": 0.9966415242114905,
+   "n_trials": 96,
+   "sd_sr_ann": 0.1116
+  }
+ },
+ "dsr_reported": {
+  "N95": {
+   "T": 5892,
+   "sr_ann": 0.8398790591412973,
+   "sr0_ann": 0.280395350953324,
+   "skew": 0.4616878564626663,
+   "kurt": 28.040487149533952,
+   "dsr": 0.9966617639106375,
+   "n_trials": 95,
+   "sd_sr_ann": 0.1116
+  },
+  "N132": {
+   "T": 5892,
+   "sr_ann": 0.8398790591412973,
+   "sr0_ann": 0.2931492317958728,
+   "skew": 0.4616878564626663,
+   "kurt": 28.040487149533952,
+   "dsr": 0.9959840957373495,
+   "n_trials": 132,
+   "sd_sr_ann": 0.1116
+  }
+ },
+ "criteria": {
+  "n_discount_events": 233,
+  "c1_did_a": true,
+  "c2_did_b_and_rule": true,
+  "c3_volume": true,
+  "c4_robustness": true,
+  "c4_detail": {
+   "a_banques": true,
+   "b_non_banques": true,
+   "c_2022_2024": true,
+   "d_vs_gsptse": true,
+   "e_australie": true
+  },
+  "c4e_required": false,
+  "c5_dsharpe": true,
+  "reject_trigger": false,
+  "verdict": "PASS"
+ },
+ "reported": {
+  "per_issuer": [
+   {
+    "ticker": "BCE.TO",
+    "D": 0,
+    "CAR_A_mean": -0.00193,
+    "CAR_A_count": 101,
+    "CAR_B_mean": -0.00132,
+    "CAR_B_count": 101,
+    "AV_A_mean": -0.09444,
+    "AV_A_count": 101
+   },
+   {
+    "ticker": "BCE.TO",
+    "D": 1,
+    "CAR_A_mean": -0.06663,
+    "CAR_A_count": 2,
+    "CAR_B_mean": 0.00682,
+    "CAR_B_count": 2,
+    "AV_A_mean": 0.13333,
+    "AV_A_count": 2
+   },
+   {
+    "ticker": "BMO.TO",
+    "D": 0,
+    "CAR_A_mean": 0.00417,
+    "CAR_A_count": 47,
+    "CAR_B_mean": -0.00557,
+    "CAR_B_count": 47,
+    "AV_A_mean": -0.10928,
+    "AV_A_count": 47
+   },
+   {
+    "ticker": "BMO.TO",
+    "D": 1,
+    "CAR_A_mean": -0.00878,
+    "CAR_A_count": 23,
+    "CAR_B_mean": 0.02168,
+    "CAR_B_count": 23,
+    "AV_A_mean": 0.03094,
+    "AV_A_count": 23
+   },
+   {
+    "ticker": "BNS.TO",
+    "D": 0,
+    "CAR_A_mean": 0.0021,
+    "CAR_A_count": 31,
+    "CAR_B_mean": -0.00115,
+    "CAR_B_count": 31,
+    "AV_A_mean": -0.21515,
+    "AV_A_count": 31
+   },
+   {
+    "ticker": "BNS.TO",
+    "D": 1,
+    "CAR_A_mean": -0.01498,
+    "CAR_A_count": 9,
+    "CAR_B_mean": 0.01414,
+    "CAR_B_count": 9,
+    "AV_A_mean": 0.10942,
+    "AV_A_count": 9
+   },
+   {
+    "ticker": "CM.TO",
+    "D": 0,
+    "CAR_A_mean": 0.00561,
+    "CAR_A_count": 46,
+    "CAR_B_mean": 0.00192,
+    "CAR_B_count": 46,
+    "AV_A_mean": -0.19331,
+    "AV_A_count": 46
+   },
+   {
+    "ticker": "CM.TO",
+    "D": 1,
+    "CAR_A_mean": -0.00894,
+    "CAR_A_count": 24,
+    "CAR_B_mean": 0.00286,
+    "CAR_B_count": 24,
+    "AV_A_mean": 0.0561,
+    "AV_A_count": 24
+   },
+   {
+    "ticker": "ENB.TO",
+    "D": 0,
+    "CAR_A_mean": -0.00311,
+    "CAR_A_count": 31,
+    "CAR_B_mean": 0.00666,
+    "CAR_B_count": 31,
+    "AV_A_mean": -0.35933,
+    "AV_A_count": 31
+   },
+   {
+    "ticker": "ENB.TO",
+    "D": 1,
+    "CAR_A_mean": -0.00749,
+    "CAR_A_count": 15,
+    "CAR_B_mean": 0.00011,
+    "CAR_B_count": 15,
+    "AV_A_mean": 0.2507,
+    "AV_A_count": 15
+   },
+   {
+    "ticker": "MFC.TO",
+    "D": 0,
+    "CAR_A_mean": -0.00558,
+    "CAR_A_count": 42,
+    "CAR_B_mean": 0.00584,
+    "CAR_B_count": 42,
+    "AV_A_mean": -0.05682,
+    "AV_A_count": 42
+   },
+   {
+    "ticker": "MFC.TO",
+    "D": 1,
+    "CAR_A_mean": 0.00042,
+    "CAR_A_count": 19,
+    "CAR_B_mean": 0.00189,
+    "CAR_B_count": 19,
+    "AV_A_mean": 0.25747,
+    "AV_A_count": 19
+   },
+   {
+    "ticker": "PPL.TO",
+    "D": 0,
+    "CAR_A_mean": 0.0065,
+    "CAR_A_count": 51,
+    "CAR_B_mean": -0.00303,
+    "CAR_B_count": 51,
+    "AV_A_mean": 0.04774,
+    "AV_A_count": 51
+   },
+   {
+    "ticker": "PPL.TO",
+    "D": 1,
+    "CAR_A_mean": 0.00542,
+    "CAR_A_count": 50,
+    "CAR_B_mean": 0.00422,
+    "CAR_B_count": 50,
+    "AV_A_mean": 0.11537,
+    "AV_A_count": 50
+   },
+   {
+    "ticker": "RY.TO",
+    "D": 0,
+    "CAR_A_mean": 0.00437,
+    "CAR_A_count": 58,
+    "CAR_B_mean": -0.00417,
+    "CAR_B_count": 58,
+    "AV_A_mean": -0.07833,
+    "AV_A_count": 58
+   },
+   {
+    "ticker": "RY.TO",
+    "D": 1,
+    "CAR_A_mean": -0.00832,
+    "CAR_A_count": 6,
+    "CAR_B_mean": 0.0189,
+    "CAR_B_count": 6,
+    "AV_A_mean": -0.12462,
+    "AV_A_count": 6
+   },
+   {
+    "ticker": "SLF.TO",
+    "D": 0,
+    "CAR_A_mean": 0.00027,
+    "CAR_A_count": 26,
+    "CAR_B_mean": -0.00441,
+    "CAR_B_count": 26,
+    "AV_A_mean": -0.14736,
+    "AV_A_count": 26
+   },
+   {
+    "ticker": "SLF.TO",
+    "D": 1,
+    "CAR_A_mean": -0.00473,
+    "CAR_A_count": 17,
+    "CAR_B_mean": 0.00918,
+    "CAR_B_count": 17,
+    "AV_A_mean": -0.01874,
+    "AV_A_count": 17
+   },
+   {
+    "ticker": "T.TO",
+    "D": 0,
+    "CAR_A_mean": 0.00952,
+    "CAR_A_count": 1,
+    "CAR_B_mean": -0.04633,
+    "CAR_B_count": 1,
+    "AV_A_mean": 0.56005,
+    "AV_A_count": 1
+   },
+   {
+    "ticker": "T.TO",
+    "D": 1,
+    "CAR_A_mean": -0.02362,
+    "CAR_A_count": 3,
+    "CAR_B_mean": -0.02043,
+    "CAR_B_count": 3,
+    "AV_A_mean": -0.0461,
+    "AV_A_count": 3
+   },
+   {
+    "ticker": "TD.TO",
+    "D": 0,
+    "CAR_A_mean": 0.00216,
+    "CAR_A_count": 58,
+    "CAR_B_mean": -0.00117,
+    "CAR_B_count": 58,
+    "AV_A_mean": -0.19015,
+    "AV_A_count": 58
+   },
+   {
+    "ticker": "TD.TO",
+    "D": 1,
+    "CAR_A_mean": -0.01412,
+    "CAR_A_count": 35,
+    "CAR_B_mean": 0.00387,
+    "CAR_B_count": 35,
+    "AV_A_mean": 0.06281,
+    "AV_A_count": 35
+   },
+   {
+    "ticker": "TRP.TO",
+    "D": 0,
+    "CAR_A_mean": 0.00399,
+    "CAR_A_count": 39,
+    "CAR_B_mean": -0.00102,
+    "CAR_B_count": 39,
+    "AV_A_mean": -0.19494,
+    "AV_A_count": 39
+   },
+   {
+    "ticker": "TRP.TO",
+    "D": 1,
+    "CAR_A_mean": -0.01775,
+    "CAR_A_count": 30,
+    "CAR_B_mean": 0.00691,
+    "CAR_B_count": 30,
+    "AV_A_mean": 0.09998,
+    "AV_A_count": 30
+   }
+  ],
+  "top5_share_rule_pnl": 0.6235461922789035,
+  "by_discount_level": {
+   "1pct": {
+    "n": 26,
+    "car_a": -0.013931712699483885,
+    "car_b": 0.002582193025369894
+   },
+   "2pct": {
+    "n": 133,
+    "car_a": -0.010670814532606425,
+    "car_b": 0.008636285810464007
+   },
+   "ge3pct": {
+    "n": 74,
+    "car_a": 0.0004827017485425288,
+    "car_b": 0.003940139424626346
+   }
+  },
+  "market_purchase_events": {
+   "n": 250,
+   "AR_P_mean": 0.0013089321626294625,
+   "CAR_B_mean": -0.0011325372160749614,
+   "other_none_AR_P_mean": 0.0012203017594273721,
+   "did_AR_P_market_vs_other_none": {
+    "n": 531,
+    "n_discount": 250,
+    "n_none": 281,
+    "mean_discount": 0.0013089321626294625,
+    "mean_none": 0.0012203017594273721,
+    "did": 8.863040320208981e-05,
+    "se": 0.0008982101028780173,
+    "t": 0.0986744670518657,
+    "clusters": 479
+   }
+  },
+  "avoid_window_bank_holder": {
+   "n": 97,
+   "mean_net": 0.007754600266971303
+  },
+  "intensity_slope": "non calcule : actions emises par le DRIP non collectees dans l'etape 0",
+  "adj_vs_raw_check": [
+   {
+    "event_id": "E0161",
+    "ticker": "BCE.TO",
+    "P": "2025-01-15",
+    "A_adj": -0.05485856190989924,
+    "A_raw": -0.0548585072367378,
+    "B_adj": 0.03550488246536676,
+    "B_raw": 0.035504833206216
+   },
+   {
+    "event_id": "E0162",
+    "ticker": "BCE.TO",
+    "P": "2025-04-15",
+    "A_adj": -0.046363787014266356,
+    "A_raw": -0.04636389631897464,
+    "B_adj": 0.024641909069820667,
+    "B_raw": 0.024642016456804416
+   },
+   {
+    "event_id": "E0184",
+    "ticker": "BMO.TO",
+    "P": "2009-02-26",
+    "A_adj": -0.030827279309350364,
+    "A_raw": -0.03082705575430944,
+    "B_adj": 0.10046612798802546,
+    "B_raw": 0.10046548035700997
+   },
+   {
+    "event_id": "E0185",
+    "ticker": "BMO.TO",
+    "P": "2009-05-28",
+    "A_adj": -0.0321910741053022,
+    "A_raw": -0.032190814724978756,
+    "B_adj": 0.055276436380317095,
+    "B_raw": 0.05527632227774015
+   },
+   {
+    "event_id": "E0186",
+    "ticker": "BMO.TO",
+    "P": "2009-08-27",
+    "A_adj": 0.06893830149275182,
+    "A_raw": 0.0689380951154015,
+    "B_adj": -0.05871381088843819,
+    "B_raw": -0.05871391307154861
+   },
+   {
+    "event_id": "E0187",
+    "ticker": "BMO.TO",
+    "P": "2009-11-26",
+    "A_adj": -0.0063389815167426145,
+    "A_raw": -0.006338556235209514,
+    "B_adj": 0.027017292306011464,
+    "B_raw": 0.027016931745188266
+   },
+   {
+    "event_id": "E0188",
+    "ticker": "BMO.TO",
+    "P": "2010-02-26",
+    "A_adj": -0.004847892421700362,
+    "A_raw": -0.004847404920384157,
+    "B_adj": 0.07017872322918262,
+    "B_raw": 0.07017859224664669
+   },
+   {
+    "event_id": "E0189",
+    "ticker": "BMO.TO",
+    "P": "2010-05-26",
+    "A_adj": -0.022802947539409257,
+    "A_raw": -0.022802974447878488,
+    "B_adj": 0.061488637857645134,
+    "B_raw": 0.061488684494057866
+   },
+   {
+    "event_id": "E0190",
+    "ticker": "BMO.TO",
+    "P": "2010-08-26",
+    "A_adj": -0.04248784241622361,
+    "A_raw": -0.042488103220884255,
+    "B_adj": 0.04171072846491586,
+    "B_raw": 0.041711012917225565
+   },
+   {
+    "event_id": "E0196",
+    "ticker": "BMO.TO",
+    "P": "2012-02-28",
+    "A_adj": -0.0024075956578661906,
+    "A_raw": -0.0024076216796554695,
+    "B_adj": -0.0012063395625029338,
+    "B_raw": -0.001206683276152476
+   }
+  ],
+  "did_issuer_fixed_effects_note": "non calcule (non preenregistre)"
+ },
+ "conservative_choices": [
+  "Evenements au statut non documente exclus (inconnu != sans rabais).",
+  "Banque au statut inconnu exclue du panier de reference du jour.",
+  "Fenetre A = P-5..P-1 pour le Canada (circulaires TD et BCE lues ; autres emetteurs : defaut du preenregistrement).",
+  "Si plusieurs evenements se chevauchent, le panier est reparti a parts egales entre les actions concernees.",
+  "Cout 0,20 % par evenement meme si l'action fait deja partie du panier.",
+  "Critere 4(e) Australie exige seulement si au moins 20 evenements australiens avec rabais (sinon rapporte)."
+ ]
+}

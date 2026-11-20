@@ -1,0 +1,348 @@
+{
+  "preregistration": "docs/agents/hypotheses/Exp-71.md",
+  "engine": "scripts/agents/exp64_noise_momentum.py",
+  "variants_counted": 1,
+  "fill_convention": "next-bar open after HH:00/HH:30 decision; EOD exit at open of 15:59 bar",
+  "category": "en echantillon (serie complete, test unique, aucun parametre regle)",
+  "indices": {
+    "DOW30": {
+      "future": "MYM",
+      "mult_usd_per_pt": 0.5,
+      "tick_usd": 0.5,
+      "cost_rt_usd": 2.2199999999999998,
+      "data": {
+        "last_bar_loaded_et": "2026-10-09 16:14:00-04:00",
+        "sessions_in_grid": 3271,
+        "eligible_sessions": 3058,
+        "tradable_sessions": 3044
+      },
+      "total": {
+        "first_day": "2014-06-02",
+        "last_day": "2026-10-09",
+        "n_days": 3044,
+        "days_traded": 1855,
+        "n_trades": 2924,
+        "sharpe_gross": 0.10339766421272395,
+        "sharpe_net": -0.4974304642047097,
+        "sharpe_net_pct_notional": -0.5012282370006172,
+        "mean_net_usd_per_day": -1.767322930354775,
+        "mean_net_pct_per_day": -0.012155670378462855,
+        "total_gross_usd": 1111.5490000000636,
+        "total_cost_usd": 6491.279999999999,
+        "total_net_usd": -5379.730999999935,
+        "cost_share_of_gross": 5.8398505149117375,
+        "gross_nonpositive": false,
+        "maxdd_usd": -5557.715499999878,
+        "worst_day_usd": -444.20500000000186,
+        "worst_day_date": "2020-03-17",
+        "best_day_usd": 493.9600000000014,
+        "days_below_minus_1000_topstep_legacy_dll": 0,
+        "days_below_minus_1200_lucid_dll": 0,
+        "days_below_minus_2000_mll": 0,
+        "top5_days_share_of_net": null,
+        "top5_days_net_usd": 2093.2249999999963
+      },
+      "post": {
+        "first_day": "2024-11-27",
+        "last_day": "2026-10-09",
+        "n_days": 451,
+        "days_traded": 275,
+        "n_trades": 438,
+        "sharpe_gross": -0.16416893450574543,
+        "sharpe_net": -0.6293047810192853,
+        "sharpe_net_pct_notional": -0.47687372260350663,
+        "mean_net_usd_per_day": -2.911864745010996,
+        "mean_net_pct_per_day": -0.010010804464157624,
+        "total_gross_usd": -340.8909999999596,
+        "total_cost_usd": 972.3599999999999,
+        "total_net_usd": -1313.2509999999593,
+        "cost_share_of_gross": null,
+        "gross_nonpositive": true,
+        "maxdd_usd": -2664.1884999999875,
+        "worst_day_usd": -210.38600000000355,
+        "worst_day_date": "2025-04-16",
+        "best_day_usd": 493.9600000000014,
+        "days_below_minus_1000_topstep_legacy_dll": 0,
+        "days_below_minus_1200_lucid_dll": 0,
+        "days_below_minus_2000_mll": 0,
+        "top5_days_share_of_net": null,
+        "top5_days_net_usd": 1669.5560000000037
+      },
+      "by_year": {
+        "2014": {
+          "n_days": 144,
+          "days_traded": 87,
+          "gross_usd": 148.93050000000494,
+          "cost_usd": 313.02,
+          "net_usd": -164.08949999999493,
+          "sharpe_net": -0.8350216713635745
+        },
+        "2015": {
+          "n_days": 241,
+          "days_traded": 145,
+          "gross_usd": 247.80599999999322,
+          "cost_usd": 535.02,
+          "net_usd": -287.2140000000065,
+          "sharpe_net": -0.6917739043880379
+        },
+        "2016": {
+          "n_days": 249,
+          "days_traded": 152,
+          "gross_usd": -166.6284999999989,
+          "cost_usd": 508.3799999999999,
+          "net_usd": -675.0084999999988,
+          "sharpe_net": -1.6138830495197356
+        },
+        "2017": {
+          "n_days": 248,
+          "days_traded": 141,
+          "gross_usd": -97.74250000000029,
+          "cost_usd": 481.7399999999999,
+          "net_usd": -579.4825000000001,
+          "sharpe_net": -1.8137262040488078
+        },
+        "2018": {
+          "n_days": 243,
+          "days_traded": 158,
+          "gross_usd": 1472.2559999999903,
+          "cost_usd": 537.2399999999998,
+          "net_usd": 935.0159999999905,
+          "sharpe_net": 0.9428566690703348
+        },
+        "2019": {
+          "n_days": 248,
+          "days_traded": 132,
+          "gross_usd": 200.47850000001745,
+          "cost_usd": 452.8799999999999,
+          "net_usd": -252.40149999998238,
+          "sharpe_net": -0.5088644089149216
+        },
+        "2020": {
+          "n_days": 247,
+          "days_traded": 150,
+          "gross_usd": -518.9790000000194,
+          "cost_usd": 546.1199999999999,
+          "net_usd": -1065.0990000000197,
+          "sharpe_net": -0.831313631222414
+        },
+        "2021": {
+          "n_days": 251,
+          "days_traded": 141,
+          "gross_usd": 26.84500000000662,
+          "cost_usd": 492.8399999999999,
+          "net_usd": -465.9949999999932,
+          "sharpe_net": -0.6641980125864527
+        },
+        "2022": {
+          "n_days": 249,
+          "days_traded": 164,
+          "gross_usd": 334.08200000001125,
+          "cost_usd": 574.9799999999998,
+          "net_usd": -240.89799999998854,
+          "sharpe_net": -0.1694911272698087
+        },
+        "2023": {
+          "n_days": 246,
+          "days_traded": 160,
+          "gross_usd": -6.594999999993888,
+          "cost_usd": 555.0,
+          "net_usd": -561.5949999999935,
+          "sharpe_net": -0.7125293581742717
+        },
+        "2024": {
+          "n_days": 248,
+          "days_traded": 163,
+          "gross_usd": -188.55999999997584,
+          "cost_usd": 563.8799999999999,
+          "net_usd": -752.4399999999756,
+          "sharpe_net": -0.9211549694325122
+        },
+        "2025": {
+          "n_days": 245,
+          "days_traded": 156,
+          "gross_usd": 794.9755000000405,
+          "cost_usd": 537.2399999999999,
+          "net_usd": 257.7355000000406,
+          "sharpe_net": 0.2046082456420527
+        },
+        "2026": {
+          "n_days": 185,
+          "days_traded": 106,
+          "gross_usd": -1135.3195000000123,
+          "cost_usd": 392.93999999999994,
+          "net_usd": -1528.2595000000122,
+          "sharpe_net": -2.070800369736308
+        }
+      },
+      "exit_reasons": {
+        "stop": 2012,
+        "eod": 902,
+        "reverse": 10
+      }
+    },
+    "RUSSELL2000": {
+      "future": "M2K",
+      "mult_usd_per_pt": 5.0,
+      "tick_usd": 0.5,
+      "cost_rt_usd": 2.2199999999999998,
+      "data": {
+        "last_bar_loaded_et": "2026-10-09 16:14:00-04:00",
+        "sessions_in_grid": 2054,
+        "eligible_sessions": 1867,
+        "tradable_sessions": 1853
+      },
+      "total": {
+        "first_day": "2019-04-10",
+        "last_day": "2026-10-09",
+        "n_days": 1853,
+        "days_traded": 1169,
+        "n_trades": 1873,
+        "sharpe_gross": -0.934219421334309,
+        "sharpe_net": -1.565671916277968,
+        "sharpe_net_pct_notional": -1.7022313726457732,
+        "mean_net_usd_per_day": -5.490107933081489,
+        "mean_net_pct_per_day": -0.06266899553098261,
+        "total_gross_usd": -6015.11,
+        "total_cost_usd": 4158.0599999999995,
+        "total_net_usd": -10173.169999999998,
+        "cost_share_of_gross": null,
+        "gross_nonpositive": true,
+        "maxdd_usd": -10334.024999999941,
+        "worst_day_usd": -357.64999999999986,
+        "worst_day_date": "2020-03-23",
+        "best_day_usd": 313.2500000000002,
+        "days_below_minus_1000_topstep_legacy_dll": 0,
+        "days_below_minus_1200_lucid_dll": 0,
+        "days_below_minus_2000_mll": 0,
+        "top5_days_share_of_net": null,
+        "top5_days_net_usd": 1403.019999999999
+      },
+      "post": {
+        "first_day": "2024-11-27",
+        "last_day": "2026-10-09",
+        "n_days": 459,
+        "days_traded": 278,
+        "n_trades": 443,
+        "sharpe_gross": -0.6646113970777957,
+        "sharpe_net": -1.1853165619682513,
+        "sharpe_net_pct_notional": -1.1344336034247053,
+        "mean_net_usd_per_day": -4.822472766884497,
+        "mean_net_pct_per_day": -0.0389438242048261,
+        "total_gross_usd": -1230.054999999984,
+        "total_cost_usd": 983.4599999999998,
+        "total_net_usd": -2213.514999999984,
+        "cost_share_of_gross": null,
+        "gross_nonpositive": true,
+        "maxdd_usd": -2339.1999999999903,
+        "worst_day_usd": -272.6799999999997,
+        "worst_day_date": "2025-04-04",
+        "best_day_usd": 313.2500000000002,
+        "days_below_minus_1000_topstep_legacy_dll": 0,
+        "days_below_minus_1200_lucid_dll": 0,
+        "days_below_minus_2000_mll": 0,
+        "top5_days_share_of_net": null,
+        "top5_days_net_usd": 1329.4299999999987
+      },
+      "by_year": {
+        "2019": {
+          "n_days": 177,
+          "days_traded": 108,
+          "gross_usd": -142.46000000000208,
+          "cost_usd": 417.35999999999996,
+          "net_usd": -559.8200000000019,
+          "sharpe_net": -1.6815428367085072
+        },
+        "2020": {
+          "n_days": 246,
+          "days_traded": 145,
+          "gross_usd": -2378.615,
+          "cost_usd": 559.4399999999999,
+          "net_usd": -2938.055,
+          "sharpe_net": -3.423462947744105
+        },
+        "2021": {
+          "n_days": 250,
+          "days_traded": 158,
+          "gross_usd": -484.7349999999983,
+          "cost_usd": 559.4399999999999,
+          "net_usd": -1044.1749999999981,
+          "sharpe_net": -1.090414657288693
+        },
+        "2022": {
+          "n_days": 249,
+          "days_traded": 175,
+          "gross_usd": -684.6550000000104,
+          "cost_usd": 610.4999999999999,
+          "net_usd": -1295.1550000000102,
+          "sharpe_net": -1.3040663367002998
+        },
+        "2023": {
+          "n_days": 246,
+          "days_traded": 164,
+          "gross_usd": -180.3200000000004,
+          "cost_usd": 555.0,
+          "net_usd": -735.3200000000003,
+          "sharpe_net": -1.0682812526323044
+        },
+        "2024": {
+          "n_days": 247,
+          "days_traded": 157,
+          "gross_usd": -969.6200000000056,
+          "cost_usd": 528.3599999999999,
+          "net_usd": -1497.980000000006,
+          "sharpe_net": -1.8940019444164846
+        },
+        "2025": {
+          "n_days": 245,
+          "days_traded": 149,
+          "gross_usd": 18.060000000002674,
+          "cost_usd": 519.48,
+          "net_usd": -501.41999999999723,
+          "sharpe_net": -0.49086635367108217
+        },
+        "2026": {
+          "n_days": 193,
+          "days_traded": 113,
+          "gross_usd": -1192.7649999999858,
+          "cost_usd": 408.4799999999999,
+          "net_usd": -1601.2449999999858,
+          "sharpe_net": -2.166193368275406
+        }
+      },
+      "exit_reasons": {
+        "stop": 1301,
+        "eod": 570,
+        "reverse": 2
+      }
+    }
+  },
+  "verdict": {
+    "rule": "Etape 0: REJET technique si < 1000 jours eligibles (MYM) ou < 800 (M2K). PASS: Sharpe net total >= 0,5 sur les deux ET Sharpe net post-publication > 0 sur les deux ET >= 200 jours trades chacun. REJET: Sharpe net total <= 0,2 sur l'un des deux OU Sharpe post-publication <= 0 sur les deux. INCERTAIN: tout le reste.",
+    "technical_reject": {
+      "DOW30": false,
+      "RUSSELL2000": false
+    },
+    "sharpe_net_total": {
+      "DOW30": -0.4974304642047097,
+      "RUSSELL2000": -1.565671916277968
+    },
+    "sharpe_net_post": {
+      "DOW30": -0.6293047810192853,
+      "RUSSELL2000": -1.1853165619682513
+    },
+    "days_traded_total": {
+      "DOW30": 1855,
+      "RUSSELL2000": 1169
+    },
+    "pass_conditions": {
+      "total_ge_0p5_both": false,
+      "post_gt_0_both": false,
+      "traded_ge_200_each": true
+    },
+    "reject_conditions": {
+      "total_le_0p2_any": true,
+      "post_le_0_both": true
+    },
+    "verdict": "REJET"
+  }
+}

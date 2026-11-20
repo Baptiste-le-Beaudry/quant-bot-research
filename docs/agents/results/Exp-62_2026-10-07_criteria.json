@@ -1,0 +1,555 @@
+{
+ "experiment": "Exp 62",
+ "id": "A-EQ-AUDIT-001",
+ "harness_version": "1.3.0",
+ "preregistration": "docs/agents/hypotheses/Exp-62.md (commit adefcba)",
+ "category": "EN ECHANTILLON (pre-HOLDOUT walk-forward TEST ledgers; HOLDOUT consumed by Exp 47)",
+ "fill_convention": "entry next open (same session only); D-STOP stop/trailing intrabar gap-aware; D-TIME50 close of bar 50 or of the session's last bar",
+ "notional_usd_per_trade": 160.0,
+ "split_time_H1_H2": "2021-12-10 14:43:00+00:00",
+ "period": [
+  "2019-01-29 16:01:00+00:00",
+  "2025-07-02 14:57:00+00:00"
+ ],
+ "n_candidates": 75531,
+ "multiple_testing": "2 rules x 3 venues = 6 decisional combinations (x 2 model classes reported)",
+ "model_rule": "a (rule, venue) combination is an edge only if the criterion holds for BOTH model classes (rf and logistic), the deployed bot running both",
+ "criteria": [
+  {
+   "rule": "D-STOP",
+   "model": "logistic",
+   "venue": "V1_ibkr_tiered",
+   "platform": "ibkr_ca_tiered",
+   "decisional": true,
+   "mean_all_pct": -0.4446831547090587,
+   "mean_H1_pct": -0.45153432655144365,
+   "mean_H2_pct": -0.4376945125566422,
+   "share_assets_pos": 0.0,
+   "n_assets_pos": 0,
+   "n_assets": 31,
+   "venue_usable": true,
+   "edge_realistic": false
+  },
+  {
+   "rule": "D-STOP",
+   "model": "logistic",
+   "venue": "V1_ibkr_fixed",
+   "platform": "ibkr_ca_fixed",
+   "decisional": false,
+   "mean_all_pct": -1.2531831547090588,
+   "mean_H1_pct": -1.2600343265514438,
+   "mean_H2_pct": -1.246194512556642,
+   "share_assets_pos": 0.0,
+   "n_assets_pos": 0,
+   "n_assets": 31,
+   "venue_usable": true,
+   "edge_realistic": false
+  },
+  {
+   "rule": "D-STOP",
+   "model": "logistic",
+   "venue": "V2_zero_commission",
+   "platform": "zero_commission_ca",
+   "decisional": true,
+   "mean_all_pct": -0.001123154709058816,
+   "mean_H1_pct": -0.00797432655144368,
+   "mean_H2_pct": 0.005865487443357863,
+   "share_assets_pos": 0.45161290322580644,
+   "n_assets_pos": 14,
+   "n_assets": 31,
+   "venue_usable": false,
+   "edge_realistic": false
+  },
+  {
+   "rule": "D-STOP",
+   "model": "logistic",
+   "venue": "V3_cfd_darwinex",
+   "platform": "cfd_darwinex_assumed",
+   "decisional": true,
+   "mean_all_pct": -0.07136558347617208,
+   "mean_H1_pct": -0.08281669257140685,
+   "mean_H2_pct": -0.05968470529124796,
+   "share_assets_pos": 0.16129032258064516,
+   "n_assets_pos": 5,
+   "n_assets": 31,
+   "venue_usable": false,
+   "edge_realistic": false
+  },
+  {
+   "rule": "D-STOP",
+   "model": "rf",
+   "venue": "V1_ibkr_tiered",
+   "platform": "ibkr_ca_tiered",
+   "decisional": true,
+   "mean_all_pct": -0.45271994528243664,
+   "mean_H1_pct": -0.4667419859391402,
+   "mean_H2_pct": -0.4390390839618569,
+   "share_assets_pos": 0.0,
+   "n_assets_pos": 0,
+   "n_assets": 31,
+   "venue_usable": true,
+   "edge_realistic": false
+  },
+  {
+   "rule": "D-STOP",
+   "model": "rf",
+   "venue": "V1_ibkr_fixed",
+   "platform": "ibkr_ca_fixed",
+   "decisional": false,
+   "mean_all_pct": -1.2612199452824369,
+   "mean_H1_pct": -1.2752419859391402,
+   "mean_H2_pct": -1.2475390839618568,
+   "share_assets_pos": 0.0,
+   "n_assets_pos": 0,
+   "n_assets": 31,
+   "venue_usable": true,
+   "edge_realistic": false
+  },
+  {
+   "rule": "D-STOP",
+   "model": "rf",
+   "venue": "V2_zero_commission",
+   "platform": "zero_commission_ca",
+   "decisional": true,
+   "mean_all_pct": -0.00915994528243665,
+   "mean_H1_pct": -0.023181985939140212,
+   "mean_H2_pct": 0.004520916038143063,
+   "share_assets_pos": 0.3870967741935484,
+   "n_assets_pos": 12,
+   "n_assets": 31,
+   "venue_usable": false,
+   "edge_realistic": false
+  },
+  {
+   "rule": "D-STOP",
+   "model": "rf",
+   "venue": "V3_cfd_darwinex",
+   "platform": "cfd_darwinex_assumed",
+   "decisional": true,
+   "mean_all_pct": -0.08021382766357019,
+   "mean_H1_pct": -0.09709050550112176,
+   "mean_H2_pct": -0.06374778718484266,
+   "share_assets_pos": 0.0967741935483871,
+   "n_assets_pos": 3,
+   "n_assets": 31,
+   "venue_usable": false,
+   "edge_realistic": false
+  },
+  {
+   "rule": "D-TIME50",
+   "model": "logistic",
+   "venue": "V1_ibkr_tiered",
+   "platform": "ibkr_ca_tiered",
+   "decisional": true,
+   "mean_all_pct": -0.4136314167554588,
+   "mean_H1_pct": -0.40687867970754177,
+   "mean_H2_pct": -0.42051964899702976,
+   "share_assets_pos": 0.0,
+   "n_assets_pos": 0,
+   "n_assets": 31,
+   "venue_usable": true,
+   "edge_realistic": false
+  },
+  {
+   "rule": "D-TIME50",
+   "model": "logistic",
+   "venue": "V1_ibkr_fixed",
+   "platform": "ibkr_ca_fixed",
+   "decisional": false,
+   "mean_all_pct": -1.2221314167554584,
+   "mean_H1_pct": -1.2153786797075417,
+   "mean_H2_pct": -1.2290196489970298,
+   "share_assets_pos": 0.0,
+   "n_assets_pos": 0,
+   "n_assets": 31,
+   "venue_usable": true,
+   "edge_realistic": false
+  },
+  {
+   "rule": "D-TIME50",
+   "model": "logistic",
+   "venue": "V2_zero_commission",
+   "platform": "zero_commission_ca",
+   "decisional": true,
+   "mean_all_pct": 0.029928583244541222,
+   "mean_H1_pct": 0.03668132029245822,
+   "mean_H2_pct": 0.023040351002970253,
+   "share_assets_pos": 0.8387096774193549,
+   "n_assets_pos": 26,
+   "n_assets": 31,
+   "venue_usable": false,
+   "edge_realistic": false
+  },
+  {
+   "rule": "D-TIME50",
+   "model": "logistic",
+   "venue": "V3_cfd_darwinex",
+   "platform": "cfd_darwinex_assumed",
+   "decisional": true,
+   "mean_all_pct": -0.039666128096567575,
+   "mean_H1_pct": -0.03729613236936519,
+   "mean_H2_pct": -0.042083678323188156,
+   "share_assets_pos": 0.3870967741935484,
+   "n_assets_pos": 12,
+   "n_assets": 31,
+   "venue_usable": false,
+   "edge_realistic": false
+  },
+  {
+   "rule": "D-TIME50",
+   "model": "rf",
+   "venue": "V1_ibkr_tiered",
+   "platform": "ibkr_ca_tiered",
+   "decisional": true,
+   "mean_all_pct": -0.4322101709096775,
+   "mean_H1_pct": -0.4330898212303019,
+   "mean_H2_pct": -0.43135192392967664,
+   "share_assets_pos": 0.0,
+   "n_assets_pos": 0,
+   "n_assets": 31,
+   "venue_usable": true,
+   "edge_realistic": false
+  },
+  {
+   "rule": "D-TIME50",
+   "model": "rf",
+   "venue": "V1_ibkr_fixed",
+   "platform": "ibkr_ca_fixed",
+   "decisional": false,
+   "mean_all_pct": -1.2407101709096775,
+   "mean_H1_pct": -1.2415898212303018,
+   "mean_H2_pct": -1.2398519239296766,
+   "share_assets_pos": 0.0,
+   "n_assets_pos": 0,
+   "n_assets": 31,
+   "venue_usable": true,
+   "edge_realistic": false
+  },
+  {
+   "rule": "D-TIME50",
+   "model": "rf",
+   "venue": "V2_zero_commission",
+   "platform": "zero_commission_ca",
+   "decisional": true,
+   "mean_all_pct": 0.011349829090322481,
+   "mean_H1_pct": 0.010470178769698102,
+   "mean_H2_pct": 0.012208076070323377,
+   "share_assets_pos": 0.6129032258064516,
+   "n_assets_pos": 19,
+   "n_assets": 31,
+   "venue_usable": false,
+   "edge_realistic": false
+  },
+  {
+   "rule": "D-TIME50",
+   "model": "rf",
+   "venue": "V3_cfd_darwinex",
+   "platform": "cfd_darwinex_assumed",
+   "decisional": true,
+   "mean_all_pct": -0.058824399704495114,
+   "mean_H1_pct": -0.06233440443071101,
+   "mean_H2_pct": -0.05539979917240481,
+   "share_assets_pos": 0.22580645161290322,
+   "n_assets_pos": 7,
+   "n_assets": 31,
+   "venue_usable": false,
+   "edge_realistic": false
+  }
+ ],
+ "combos": [
+  {
+   "rule": "D-STOP",
+   "venue": "V1_ibkr_tiered",
+   "all": false,
+   "any": false
+  },
+  {
+   "rule": "D-STOP",
+   "venue": "V2_zero_commission",
+   "all": false,
+   "any": false
+  },
+  {
+   "rule": "D-STOP",
+   "venue": "V3_cfd_darwinex",
+   "all": false,
+   "any": false
+  },
+  {
+   "rule": "D-TIME50",
+   "venue": "V1_ibkr_tiered",
+   "all": false,
+   "any": false
+  },
+  {
+   "rule": "D-TIME50",
+   "venue": "V2_zero_commission",
+   "all": false,
+   "any": false
+  },
+  {
+   "rule": "D-TIME50",
+   "venue": "V3_cfd_darwinex",
+   "all": false,
+   "any": false
+  }
+ ],
+ "verdict_proposed": "REJECT",
+ "reconciliation": {
+  "ref_n": 40313,
+  "ref_intrabar_mean_pct": 0.031293928834576,
+  "ref_intrabar_net002_pf": 1.0352898228840002,
+  "harness_signal_close_n": 40125,
+  "harness_signal_close_mean_pct": 0.029035203534721502,
+  "harness_signal_close_net002_pf": 1.0283599000025516,
+  "harness_next_open_mean_pct": 0.018169599911912464,
+  "harness_next_open_net002_pf": 0.9943476589991799,
+  "recon_n": 40313,
+  "recon_signal_close_mean_pct": 0.031293928834576795,
+  "recon_signal_close_net002_pf": 1.0352898228840026,
+  "n_groups_count_mismatch": 0,
+  "max_abs_diff_ledger_per_trade": 3.3881317890172014e-21,
+  "max_abs_diff_intrabar_vs_signal_close_per_trade": 9.996344030316351e-17
+ },
+ "descriptive": {
+  "exit_reasons": [
+   {
+    "rule": "D-STOP",
+    "model": "logistic",
+    "stop": 3839,
+    "time": 22508,
+    "trail": 10198
+   },
+   {
+    "rule": "D-STOP",
+    "model": "rf",
+    "stop": 4039,
+    "time": 25275,
+    "trail": 9336
+   },
+   {
+    "rule": "D-TIME50",
+    "model": "logistic",
+    "stop": 0,
+    "time": 36545,
+    "trail": 0
+   },
+   {
+    "rule": "D-TIME50",
+    "model": "rf",
+    "stop": 0,
+    "time": 38650,
+    "trail": 0
+   }
+  ],
+  "overnight_share_dstop": 0.03066693264179799,
+  "missing_minutes_share": 0.026763747589600373,
+  "time50_truncated_by_session_share": 0.04969745328811756,
+  "entry_slip_vs_signal_close_mean_pct": 0.008861601338561476,
+  "worst_trade_pct": {
+   "D-STOP": -12.04804994665507,
+   "D-TIME50": -11.241279399148585
+  }
+ },
+ "costs": {
+  "V1_ibkr_tiered": [
+   {
+    "platform": "ibkr_ca_tiered",
+    "version": "1.3",
+    "param": "fee_pct",
+    "value": 1.03e-05,
+    "source": "interactivebrokers.ca/en/pricing/commissions-stocks.php (read 2026-10-07): SEC Transaction Fee USD 0.0000206 * value of sales -> charged on the exit only = 0.00103 %/side on average",
+    "verified": true
+   },
+   {
+    "platform": "ibkr_ca_tiered",
+    "version": "1.3",
+    "param": "half_spread_pct",
+    "value": 0.0001,
+    "source": "Exp-62 preregistration fallback 0.02 % RT (Dukascopy cache is BID only, real NBBO spread not measured)",
+    "verified": false
+   },
+   {
+    "platform": "ibkr_ca_tiered",
+    "version": "1.3",
+    "param": "slippage_pct",
+    "value": 2e-05,
+    "source": "Tiered adds exchange (liquidity-removing ~USD 0.003/share), clearing and pass-through fees: per-share, schedule not read -> 0.002 %/side allowance (~USD 0.003/share on a 150 USD share)",
+    "verified": false
+   },
+   {
+    "platform": "ibkr_ca_tiered",
+    "version": "1.3",
+    "param": "impact_pct_per_10k_usd",
+    "value": 0.0,
+    "source": "not applicable",
+    "verified": true
+   },
+   {
+    "platform": "ibkr_ca_tiered",
+    "version": "1.3",
+    "param": "fixed_fee_usd_per_order",
+    "value": 0.35,
+    "source": "interactivebrokers.ca/en/pricing/commissions-stocks.php (read 2026-10-07): Tiered USD 0.0035/share (<= 300 000 shares/month), minimum USD 0.35 per order, cap 0.5 % of trade value; flat 0.35 exact for 70 USD <= notional <= 100 * share price",
+    "verified": true
+   },
+   {
+    "platform": "ibkr_ca_tiered",
+    "version": "1.3",
+    "param": "min_order_usd",
+    "value": 1.0,
+    "source": "same as ibkr_ca_fixed (fractional from USD 1)",
+    "verified": true
+   },
+   {
+    "platform": "ibkr_ca_tiered",
+    "version": "1.3",
+    "param": "funding_conversion_pct",
+    "value": 2e-05,
+    "source": "interactivebrokers.ca/en/pricing/commissions-spot-currencies.php (read 2026-10-07): 0.20 basis point * trade value (tier I)",
+    "verified": true
+   },
+   {
+    "platform": "ibkr_ca_tiered",
+    "version": "1.3",
+    "param": "funding_fixed_cad",
+    "value": 5.68,
+    "source": "interactivebrokers.ca/en/pricing/commissions-spot-currencies.php (read 2026-10-07): minimum USD 2.00 per conversion, CAD->USD at start + USD->CAD at the end",
+    "verified": true
+   }
+  ],
+  "V1_ibkr_fixed": [
+   {
+    "platform": "ibkr_ca_fixed",
+    "version": "1.3",
+    "param": "fee_pct",
+    "value": 1.03e-05,
+    "source": "interactivebrokers.ca/en/pricing/commissions-stocks.php (read 2026-10-07): SEC Transaction Fee USD 0.0000206 * value of sales -> charged on the exit only = 0.00103 %/side on average",
+    "verified": true
+   },
+   {
+    "platform": "ibkr_ca_fixed",
+    "version": "1.3",
+    "param": "half_spread_pct",
+    "value": 0.0001,
+    "source": "Exp-62 preregistration fallback 0.02 % RT (Dukascopy cache is BID only, real NBBO spread not measured)",
+    "verified": false
+   },
+   {
+    "platform": "ibkr_ca_fixed",
+    "version": "1.3",
+    "param": "slippage_pct",
+    "value": 0.0,
+    "source": "not applicable",
+    "verified": true
+   },
+   {
+    "platform": "ibkr_ca_fixed",
+    "version": "1.3",
+    "param": "impact_pct_per_10k_usd",
+    "value": 0.0,
+    "source": "not applicable",
+    "verified": true
+   },
+   {
+    "platform": "ibkr_ca_fixed",
+    "version": "1.3",
+    "param": "fixed_fee_usd_per_order",
+    "value": 1.0,
+    "source": "interactivebrokers.ca/en/pricing/commissions-stocks.php (read 2026-10-07): Fixed USD 0.005/share, minimum USD 1.00 per order, maximum 1 % of trade value; exact as a flat 1.00 USD for 100 USD <= notional <= 200 * share price (always the case at 100-20 000 USD here); fractional shares: 'same commission rates as whole share trades'",
+    "verified": true
+   },
+   {
+    "platform": "ibkr_ca_fixed",
+    "version": "1.3",
+    "param": "min_order_usd",
+    "value": 1.0,
+    "source": "interactivebrokers.ca/en/trading/fractional-trading.php: fractional US stocks 'starting from just USD 1' (fractional orders via the TWS API and stop orders on fractions NOT verified)",
+    "verified": true
+   },
+   {
+    "platform": "ibkr_ca_fixed",
+    "version": "1.3",
+    "param": "funding_conversion_pct",
+    "value": 2e-05,
+    "source": "interactivebrokers.ca/en/pricing/commissions-spot-currencies.php (read 2026-10-07): 0.20 basis point * trade value (tier I)",
+    "verified": true
+   },
+   {
+    "platform": "ibkr_ca_fixed",
+    "version": "1.3",
+    "param": "funding_fixed_cad",
+    "value": 5.68,
+    "source": "interactivebrokers.ca/en/pricing/commissions-spot-currencies.php (read 2026-10-07): minimum USD 2.00 per conversion, CAD->USD at start + USD->CAD at the end",
+    "verified": true
+   }
+  ],
+  "V2_zero_commission": [
+   {
+    "platform": "zero_commission_ca",
+    "version": "1.3",
+    "param": "fee_pct",
+    "value": 0.0,
+    "source": "Questrade ($0 commissions on stocks and ETFs, questrade.com/pricing/self-directed-investing/fees), NBDB (nbdb.ca/pricing.html), Wealthsimple (wealthsimple.com/en-ca/pricing): $0 commission, read 2026-10-07",
+    "verified": true
+   },
+   {
+    "platform": "zero_commission_ca",
+    "version": "1.3",
+    "param": "half_spread_pct",
+    "value": 0.0001,
+    "source": "Exp-62 preregistration fallback 0.02 % RT (Dukascopy cache is BID only, real NBBO spread not measured)",
+    "verified": false
+   },
+   {
+    "platform": "zero_commission_ca",
+    "version": "1.3",
+    "param": "slippage_pct",
+    "value": 0.0,
+    "source": "not applicable",
+    "verified": true
+   },
+   {
+    "platform": "zero_commission_ca",
+    "version": "1.3",
+    "param": "impact_pct_per_10k_usd",
+    "value": 0.0,
+    "source": "not applicable",
+    "verified": true
+   },
+   {
+    "platform": "zero_commission_ca",
+    "version": "1.3",
+    "param": "fixed_fee_usd_per_order",
+    "value": 0.0,
+    "source": "not applicable",
+    "verified": true
+   },
+   {
+    "platform": "zero_commission_ca",
+    "version": "1.3",
+    "param": "min_order_usd",
+    "value": 0.0,
+    "source": "not applicable",
+    "verified": true
+   },
+   {
+    "platform": "zero_commission_ca",
+    "version": "1.3",
+    "param": "funding_conversion_pct",
+    "value": 0.015,
+    "source": "wealthsimple.com/en-ca/pricing: USD account, CAD->USD 1.5 % (< 10 000 USD) per conversion (NBDB: 1.70 %); per direction",
+    "verified": true
+   },
+   {
+    "platform": "zero_commission_ca",
+    "version": "1.3",
+    "param": "funding_fixed_cad",
+    "value": 0.0,
+    "source": "not applicable",
+    "verified": true
+   }
+  ]
+ },
+ "v3_swap_annual": 0.065
+}

@@ -1,0 +1,32 @@
+{
+  "harness_version": "1.1.0",
+  "notional_usd_at_33pct": 116.13591,
+  "usd_per_cad": 0.703854,
+  "criteria": {
+    "P1": {
+      "a_BTC_net_at_size_pct": 0.20961371216946864,
+      "a_ETH_net_at_size_pct": 0.1796099784725517,
+      "a_BTC_pass": true,
+      "a_ETH_pass": true,
+      "b_cagr_combined_pct": 26.232113511359856,
+      "b_cagr_sol_only_pct": 13.86920980716142,
+      "b_pass": true,
+      "c_maxdd_combined_pct": -24.168443790361017,
+      "c_pass": true
+    },
+    "P2": {
+      "a_BTC_net_at_size_pct": 0.14312465309537478,
+      "a_ETH_net_at_size_pct": 0.07551631631079497,
+      "a_BTC_pass": true,
+      "a_ETH_pass": true,
+      "b_cagr_combined_pct": 7.759531407485065,
+      "b_cagr_sol_only_pct": 6.995273889031339,
+      "b_pass": true,
+      "c_maxdd_combined_pct": -18.908403753335833,
+      "c_pass": true
+    }
+  },
+  "mechanical_reading": "PASS",
+  "reject_by_a": false,
+  "reject_by_b": false
+}

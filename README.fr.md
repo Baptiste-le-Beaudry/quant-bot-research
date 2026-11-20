@@ -22,9 +22,18 @@ Un bot de recherche complet, crypto et actions : features, modèles d'arbres (ra
 
 ## Ce qui a été testé
 
-Journal complet : `docs/research_plan_status.md` (Exp 0-36) et `scripts/agents/` (Exp 52-82).
+Où trouver chaque résultat :
 
-La plus prometteuse : **Stratégie A** (rebond sur creux crypto, random forest et filtre de volatilité, sortie à 50 min sur SOL : +0,146 % par trade, PF 1,21 en échantillon). Avec un remplissage réaliste, environ 0 net, non confirmée en forward. Stratégie A-Equity : edge réel en walk-forward mais rejetée pour 500 CAD après frais. Stratégies B (momentum), C (microstructure), extension d'univers, timing de sortie, matières premières, marchés de prédiction : rejetées.
+- `docs/research_plan_status.md` : Exp 0 à 50, avec les chiffres (en anglais).
+- `docs/agents/REGISTRY.csv` : une ligne par expérience, de l'Exp 49 à l'Exp 82 (date, commit de préenregistrement, variantes testées, données, verdict, lien).
+- `docs/agents/hypotheses/` : préenregistrements, commités avant tout calcul.
+- `docs/agents/results/` : rapports de résultats et critères (`*_criteria.json`).
+- `docs/agents/validation/` : revues indépendantes (reproduction, DSR/PBO, red team).
+- `docs/agents/research/` : fiches de recherche et idées écartées avant tout backtest.
+- `docs/strategy_b/` et `docs/strategy_c/` : spécifications et journaux des stratégies B (cassure, funding, rotation, indices) et C (microstructure).
+- `scripts/agents/` et `scripts/strategy_*` : le code de chaque expérience.
+
+La plus prometteuse : **Stratégie A** (rebond sur creux crypto, random forest et filtre de volatilité, sortie à 50 min sur SOL : +0,146 % par trade, PF 1,21 en échantillon). Avec un remplissage réaliste, environ 0 net, non confirmée en forward. Stratégie A-Equity : edge réel en walk-forward mais rejetée pour 500 CAD après frais. Stratégies B (momentum, cassures, funding, rotation, indices), C (microstructure), extension d'univers, timing de sortie, matières premières, marchés de prédiction, challenges funded sur futures : rejetées. Allocation indicielle (levier ×2 et filtre MM200, volatilité ciblée, tendance empilée, atelier maison, Exp 74 à 80) : aucun edge après publication, le gain du ×2 vient du levier. Effets « qui est de l'autre côté » : saison REER rejetée (Exp 81) ; rabais DRIP des banques canadiennes passé mais fragile (Exp 82, veille papier seulement).
 
 ## Les modèles
 

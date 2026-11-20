@@ -1,0 +1,180 @@
+{
+  "harness_version": "1.2.0",
+  "notional_usd_at_33pct": 116.13591,
+  "usd_per_cad": 0.703854,
+  "costs_rt_measured": {
+    "JUPUSDT": 9.505603448278777e-05,
+    "JTOUSDT": 0.003446931034482792,
+    "PYTHUSDT": 0.0018532672413793527,
+    "RAYSOLUSDT": 0.0008722758620689497,
+    "WIFUSDT": 0.0018865775862069167,
+    "1000BONKUSDT": 0.0008742413793103587,
+    "RAYUSDT_2021": 0.0008722758620689497
+  },
+  "excluded_step0": [
+    "JTOUSDT",
+    "PYTHUSDT",
+    "WIFUSDT"
+  ],
+  "token_retained": {
+    "JUPUSDT": false,
+    "JTOUSDT": false,
+    "PYTHUSDT": false,
+    "RAYSOLUSDT": false,
+    "WIFUSDT": false,
+    "1000BONKUSDT": false
+  },
+  "retained": [],
+  "account_criterion": null,
+  "mechanical_reading": "REJET",
+  "meta": {
+    "SOLUSDT": {
+      "raw_signal_bars": 6738,
+      "sequenced": 1454
+    },
+    "BTCUSDT": {
+      "raw_signal_bars": 987,
+      "sequenced": 254
+    },
+    "ETHUSDT": {
+      "raw_signal_bars": 2116,
+      "sequenced": 524
+    },
+    "JUPUSDT": {
+      "eligible": true,
+      "first_fold": 11,
+      "period_start": "2024-05-27 07:45:00+00:00",
+      "period_end": "2026-08-17 00:01:00+00:00",
+      "midpoint": "2025-07-07 03:53:00+00:00",
+      "raw_signal_bars": 8411,
+      "sequenced": 1507,
+      "signal_bars_per_fold": {
+        "11": 915,
+        "12": 1000,
+        "13": 2281,
+        "14": 1355,
+        "15": 626,
+        "16": 660,
+        "17": 705,
+        "18": 183,
+        "19": 686
+      }
+    },
+    "JTOUSDT": {
+      "eligible": true,
+      "first_fold": 10,
+      "period_start": "2024-02-27 07:45:00+00:00",
+      "period_end": "2026-08-17 00:01:00+00:00",
+      "midpoint": "2025-05-23 03:53:00+00:00",
+      "raw_signal_bars": 12380,
+      "sequenced": 2164,
+      "signal_bars_per_fold": {
+        "10": 2941,
+        "11": 976,
+        "12": 1203,
+        "13": 2069,
+        "14": 1068,
+        "15": 424,
+        "16": 945,
+        "17": 845,
+        "18": 499,
+        "19": 1410
+      }
+    },
+    "PYTHUSDT": {
+      "eligible": true,
+      "first_fold": 10,
+      "period_start": "2024-02-27 07:45:00+00:00",
+      "period_end": "2026-08-17 00:01:00+00:00",
+      "midpoint": "2025-05-23 03:53:00+00:00",
+      "raw_signal_bars": 9126,
+      "sequenced": 1612,
+      "signal_bars_per_fold": {
+        "10": 1631,
+        "11": 607,
+        "12": 829,
+        "13": 1844,
+        "14": 1239,
+        "15": 489,
+        "16": 1064,
+        "17": 576,
+        "18": 209,
+        "19": 638
+      }
+    },
+    "RAYSOLUSDT": {
+      "eligible": true,
+      "first_fold": 14,
+      "period_start": "2025-02-27 07:45:00+00:00",
+      "period_end": "2026-08-17 00:01:00+00:00",
+      "midpoint": "2025-11-22 03:53:00+00:00",
+      "raw_signal_bars": 5568,
+      "sequenced": 1055,
+      "signal_bars_per_fold": {
+        "14": 2279,
+        "15": 861,
+        "16": 1147,
+        "17": 817,
+        "18": 188,
+        "19": 276
+      }
+    },
+    "WIFUSDT": {
+      "eligible": true,
+      "first_fold": 11,
+      "period_start": "2024-05-27 07:45:00+00:00",
+      "period_end": "2026-08-17 00:01:00+00:00",
+      "midpoint": "2025-07-07 03:53:00+00:00",
+      "raw_signal_bars": 14520,
+      "sequenced": 2469,
+      "signal_bars_per_fold": {
+        "11": 2387,
+        "12": 2269,
+        "13": 3182,
+        "14": 2900,
+        "15": 1212,
+        "16": 1049,
+        "17": 710,
+        "18": 244,
+        "19": 567
+      }
+    },
+    "1000BONKUSDT": {
+      "eligible": true,
+      "first_fold": 10,
+      "period_start": "2024-02-27 07:45:00+00:00",
+      "period_end": "2026-08-17 00:01:00+00:00",
+      "midpoint": "2025-05-23 03:53:00+00:00",
+      "raw_signal_bars": 16777,
+      "sequenced": 2646,
+      "signal_bars_per_fold": {
+        "10": 3751,
+        "11": 1849,
+        "12": 2288,
+        "13": 2912,
+        "14": 2479,
+        "15": 1420,
+        "16": 865,
+        "17": 672,
+        "18": 145,
+        "19": 396
+      }
+    },
+    "RAYUSDT_2021": {
+      "eligible": true,
+      "first_fold": 1,
+      "period_start": "2021-11-27 07:45:00+00:00",
+      "period_end": "2022-11-15 03:59:00+00:00",
+      "midpoint": "2022-05-22 17:52:00+00:00",
+      "raw_signal_bars": 661,
+      "sequenced": 186,
+      "signal_bars_per_fold": {
+        "1": 162,
+        "2": 164,
+        "3": 49,
+        "4": 286
+      }
+    },
+    "_common_start": "2025-02-27 07:45:00+00:00"
+  }
+}

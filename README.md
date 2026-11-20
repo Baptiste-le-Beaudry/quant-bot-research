@@ -31,18 +31,29 @@ exchange would fill them: **0.95**. Equity: 1.21 to about 1.04. See
 
 ## What was tested
 
-Full log with numbers: `docs/research_plan_status.md` (Experiments 0-36) and `scripts/agents/` (Experiments 52-82).
+Where to find each result (the write-ups from Exp 51 on are in French):
+
+- `docs/research_plan_status.md`: Experiments 0-50, with numbers.
+- `docs/agents/REGISTRY.csv`: one line per experiment from Exp 49 to Exp 82 (date, preregistration commit, variants tested, data used, verdict, link).
+- `docs/agents/hypotheses/`: preregistrations, committed before any computation.
+- `docs/agents/results/`: result reports and their criteria (`*_criteria.json`).
+- `docs/agents/validation/`: independent reviews (reproduction, DSR/PBO, red team).
+- `docs/agents/research/`: literature notes and ideas that were dropped before any backtest.
+- `docs/strategy_b/` and `docs/strategy_c/`: specs and research logs for Strategy B (breakout, funding, rotation, index) and Strategy C (microstructure).
+- `scripts/agents/` and `scripts/strategy_*`: the code for each experiment.
 
 | Family | Result |
 |---|---|
 | **Strategy A**: crypto mean-reversion (dip buying), random-forest signal plus volatility filter, trailing or time exit | The most promising. An edge exists in-sample, mostly from the filter x model interaction and exit asymmetry. With realistic fills it is about 0 net. Best candidate: 50-minute time exit on SOL (+0.146 %/trade, PF 1.21 in-sample). Not confirmed forward. |
 | Strategy A-Equity: same idea on 15 US equities (Dukascopy) | Real own-asset edge in walk-forward (9/15, then 12/16 on independent confirmation), but **rejected for a 500 CAD account** after broker costs. |
-| Strategy B: momentum / breakout | Rejected. |
+| Strategy B: momentum / breakout, funding-rate extremes, cross-sectional rotation, index breakouts | Rejected. |
 | Strategy C: QQQ/SPY order-book microstructure | Rejected; the lead reversed sign on SPY. |
 | Universe expansion (ETC/TRX/DOT, TSLA/NVDA/MSTR/leveraged ETFs) | Rejected; the transfer theory was not validated. |
 | Exit timing (4 approaches) | Rejected; the deployed 50-minute exit was confirmed three ways. |
 | Commodities, prediction markets, daily momentum, residual dip, regime filters, label variants, tail risk, noise momentum, leveraged trend, volatility targeting | Rejected or inconclusive; see the log. |
 | Funded-account challenges (backtested) | Negative once realistic fills are used. |
+| Index allocation: 2x leverage + 200-day filter, volatility targeting, equity + trend stacking, in-house strategies (Exp 74-80) | No edge after publication; the 2x gain is leverage, not skill. |
+| "Who is on the other side" effects: RRSP season (Exp 81), DRIP discount windows on Canadian banks (Exp 82) | Exp 81 rejected; Exp 82 passed but is fragile (paper watch only). |
 
 ## The models (all in code)
 
@@ -61,7 +72,9 @@ scripts/                   experiment scripts and the phase 1-7 pipeline
 scripts/agents/            experiments 52-82
 scripts/audit/             static bug scanners
 tests/                     regression tests, including the real bugs found
-docs/                      research log, audit, strategy index, exit-realism tables
+docs/                      research log (Exp 0-50), audit, strategy index, exit-realism tables
+docs/agents/               registry, preregistrations, results, reviews (Exp 49-82)
+docs/strategy_b/, strategy_c/  strategy B and C specs and logs
 ```
 
 ## Run it

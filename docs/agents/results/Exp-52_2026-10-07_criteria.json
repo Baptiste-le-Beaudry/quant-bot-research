@@ -1,0 +1,240 @@
+{
+  "harness_version": "1.2.0",
+  "platform": "jupiter_build",
+  "usd_per_cad": 0.703854,
+  "params": {
+    "B": 0.02,
+    "quantile": 0.995,
+    "hold_bars": 50,
+    "burst_minutes": 60,
+    "floor_usd": 20.0,
+    "cap_fraction": 0.33,
+    "train": {
+      "P1": [
+        null,
+        "2021-11-01"
+      ],
+      "P2": [
+        "2021-11-01",
+        "2025-03-28"
+      ]
+    }
+  },
+  "fits": [
+    {
+      "population": "P1",
+      "symbol": "SOLUSDT",
+      "train_start": null,
+      "train_end": "2021-11-01",
+      "q995": 0.07699856092977765,
+      "rv30_median": 0.0017050506264999943,
+      "n_mae": 594250,
+      "n_rv": 594220,
+      "first": "2020-09-14 07:00:00+00:00",
+      "last": "2021-10-31 23:09:00+00:00"
+    },
+    {
+      "population": "P2",
+      "symbol": "SOLUSDT",
+      "train_start": "2021-11-01",
+      "train_end": "2025-03-28",
+      "q995": 0.05050322425119025,
+      "rv30_median": 0.0010407989209128034,
+      "n_mae": 1789870,
+      "n_rv": 1789870,
+      "first": "2021-11-01 00:00:00+00:00",
+      "last": "2025-03-27 23:09:00+00:00"
+    },
+    {
+      "population": "P1",
+      "symbol": "BTCUSDT",
+      "train_start": null,
+      "train_end": "2021-11-01",
+      "q995": 0.04307815422507106,
+      "rv30_median": 0.0007102391976306025,
+      "n_mae": 1129222,
+      "n_rv": 1129242,
+      "first": "2019-09-08 17:57:00+00:00",
+      "last": "2021-10-31 23:09:00+00:00"
+    },
+    {
+      "population": "P2",
+      "symbol": "BTCUSDT",
+      "train_start": "2021-11-01",
+      "train_end": "2025-03-28",
+      "q995": 0.02799691601914565,
+      "rv30_median": 0.0005113336610561906,
+      "n_mae": 1789870,
+      "n_rv": 1789870,
+      "first": "2021-11-01 00:00:00+00:00",
+      "last": "2025-03-27 23:09:00+00:00"
+    },
+    {
+      "population": "P1",
+      "symbol": "ETHUSDT",
+      "train_start": null,
+      "train_end": "2021-11-01",
+      "q995": 0.05420479492333016,
+      "rv30_median": 0.0009805962404503734,
+      "n_mae": 1014685,
+      "n_rv": 1014655,
+      "first": "2019-11-27 07:45:00+00:00",
+      "last": "2021-10-31 23:09:00+00:00"
+    },
+    {
+      "population": "P2",
+      "symbol": "ETHUSDT",
+      "train_start": "2021-11-01",
+      "train_end": "2025-03-28",
+      "q995": 0.03628942481991799,
+      "rv30_median": 0.0006354921560817323,
+      "n_mae": 1789870,
+      "n_rv": 1789870,
+      "first": "2021-11-01 00:00:00+00:00",
+      "last": "2025-03-27 23:09:00+00:00"
+    }
+  ],
+  "criteria": {
+    "P1": {
+      "worst_day_capped_pct": -2.4443527742118,
+      "c1_worst_day_ge_-10": true,
+      "net_kept_capped_pct": 0.09866596382225974,
+      "net_kept_uncapped_pct": 0.17125601447914074,
+      "c2_net_kept_ge_80pct": false,
+      "cagr_capped_pct": 3.633924664491639,
+      "cagr_uncapped_pct": 26.232113511359856,
+      "c3_cagr_ge_50pct": false,
+      "ratio_capped": 0.5085424669083743,
+      "ratio_uncapped": 1.085386950806567,
+      "c4_ratio_improves": false,
+      "reject_worst_day_lt_-15": false
+    },
+    "P1_SOL_only_no_effect": {
+      "worst_day_capped_pct": -2.1690707123619424,
+      "c1_worst_day_ge_-10": true,
+      "net_kept_capped_pct": 0.09615227674276186,
+      "net_kept_uncapped_pct": 0.14227786102741602,
+      "c2_net_kept_ge_80pct": false,
+      "cagr_capped_pct": 3.225559699679237,
+      "cagr_uncapped_pct": 13.86920980716142,
+      "c3_cagr_ge_50pct": false,
+      "ratio_capped": 0.43071986815506275,
+      "ratio_uncapped": 0.6182534995075384,
+      "c4_ratio_improves": false,
+      "reject_worst_day_lt_-15": false
+    },
+    "P2": {
+      "worst_day_capped_pct": -0.7132635081217642,
+      "c1_worst_day_ge_-10": true,
+      "net_kept_capped_pct": 0.1270977761638138,
+      "net_kept_uncapped_pct": 0.08574405156556915,
+      "c2_net_kept_ge_80pct": true,
+      "cagr_capped_pct": 3.6892477003966473,
+      "cagr_uncapped_pct": 7.759531407485065,
+      "c3_cagr_ge_50pct": false,
+      "ratio_capped": 0.9642947018989223,
+      "ratio_uncapped": 0.41037474705479166,
+      "c4_ratio_improves": true,
+      "reject_worst_day_lt_-15": false
+    },
+    "P2_SOL_only_no_effect": {
+      "worst_day_capped_pct": -1.550043242536514,
+      "c1_worst_day_ge_-10": true,
+      "net_kept_capped_pct": 0.12227023557961844,
+      "net_kept_uncapped_pct": 0.13680499043590608,
+      "c2_net_kept_ge_80pct": true,
+      "cagr_capped_pct": 2.8171332364573365,
+      "cagr_uncapped_pct": 6.995273889031339,
+      "c3_cagr_ge_50pct": false,
+      "ratio_capped": 0.42833126544634215,
+      "ratio_uncapped": 0.6593322138676229,
+      "c4_ratio_improves": false,
+      "reject_worst_day_lt_-15": false
+    }
+  },
+  "mechanical": {
+    "verdict_strict_reading": "REJET",
+    "verdict_lenient_reading": "INCERTAIN",
+    "reject_by_worst_day": false,
+    "reject_by_ratio_strict": true,
+    "reject_by_ratio_lenient": false
+  },
+  "uncapped_reproduces_exp57": {
+    "P1_SOL_BTC_ETH": {
+      "n_trades": [
+        1467,
+        1467
+      ],
+      "cagr": [
+        26.232113511359856,
+        26.232113511359856
+      ],
+      "maxdd": [
+        -24.168443790361017,
+        -24.168443790361017
+      ],
+      "worst_day": [
+        -11.574859530908089,
+        -11.574859530908087
+      ],
+      "identical": true
+    },
+    "P1_SOL_only": {
+      "n_trades": [
+        1017,
+        1017
+      ],
+      "cagr": [
+        13.86920980716142,
+        13.86920980716142
+      ],
+      "maxdd": [
+        -22.43288524562943,
+        -22.43288524562943
+      ],
+      "worst_day": [
+        -11.492959526710777,
+        -11.492959526710775
+      ],
+      "identical": true
+    },
+    "P2_SOL_BTC_ETH": {
+      "n_trades": [
+        392,
+        392
+      ],
+      "cagr": [
+        7.759531407485065,
+        7.759531407485065
+      ],
+      "maxdd": [
+        -18.908403753335833,
+        -18.908403753335836
+      ],
+      "worst_day": [
+        -4.3800323910606505,
+        -4.3800323910606505
+      ],
+      "identical": true
+    },
+    "P2_SOL_only": {
+      "n_trades": [
+        217,
+        217
+      ],
+      "cagr": [
+        6.995273889031339,
+        6.995273889031339
+      ],
+      "maxdd": [
+        -10.609634630162045,
+        -10.609634630162043
+      ],
+      "worst_day": [
+        -2.469144777921717,
+        -2.469144777921717
+      ],
+      "identical": true
+    }
+  }
+}
