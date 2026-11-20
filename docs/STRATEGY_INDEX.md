@@ -1,5 +1,16 @@
 # Strategy Index — instant "which strategy is this result from?" lookup
 
+> **Final status (October 2026). This supersedes the per-strategy "Status" lines below, which date from August 2026.**
+>
+> | Strategy | Final status |
+> |---|---|
+> | A (crypto dip-buying) | Not adopted. With realistic stop fills, PF 1.38 → 0.95. The 50-minute time-exit variant on SOL (Jupiter) is about +0.1 %/trade in-sample, about 0 net in recent data, and unconfirmed in forward paper trading. Optimisation on history was stopped (decision D-06). |
+> | A-Equity | Real walk-forward edge, but rejected for a small account: broker costs (~0.46 % round trip) far exceed the gross edge (Exp 62). |
+> | B, B_FUNDING, B_ROTATION, B_INDEX | All rejected (closed). |
+> | C (SPY/QQQ microstructure) | Rejected (closed). |
+>
+> One-page overview of every experiment: [EXPERIMENTS.md](EXPERIMENTS.md).
+
 This file exists solely so that, at any point in the future, a single
 glance answers: **does this result belong to Strategy A or Strategy B?**
 Created 2026-08-23 per the user's explicit mandate to keep the two

@@ -44,6 +44,5 @@ Keep the current frozen filter. Do not change the live or paper runtime based on
 
 Artifacts:
 
-- [candidate_pnl_full_1440.csv](../outputs/crypto_volatility_research/candidate_pnl_full_1440.csv)
-- [candidate_pnl_full_1440_summary.csv](../outputs/crypto_volatility_research/candidate_pnl_full_1440_summary.csv)
+- `outputs/crypto_volatility_research/candidate_pnl_full_1440.csv` and `candidate_pnl_full_1440_summary.csv` (not published: generated outputs)
 - [CRYPTO_VOLATILITY_FILTER_RESEARCH.md](CRYPTO_VOLATILITY_FILTER_RESEARCH.md)

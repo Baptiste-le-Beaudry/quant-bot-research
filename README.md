@@ -17,7 +17,7 @@ fill error. The repository documents how we got there so you can skip the same d
 
 2,549 trades, profit factor **1.38** in the research backtest. Same trades, stops filled the way an
 exchange would fill them: **0.95**. Equity: 1.21 to about 1.04. See
-`docs/SCIENTIFIC_VALIDATION_AUDIT.md` and the companion tool
+[docs/SCIENTIFIC_VALIDATION_AUDIT.md](docs/SCIENTIFIC_VALIDATION_AUDIT.md) and the companion tool
 [fill-reality-check](https://github.com/Baptiste-le-Beaudry/fill-reality-check).
 
 ## Why it is so hard to find an edge (crypto and equity)
@@ -31,16 +31,19 @@ exchange would fill them: **0.95**. Equity: 1.21 to about 1.04. See
 
 ## What was tested
 
-Where to find each result (the write-ups from Exp 51 on are in French):
+**Start here: [docs/EXPERIMENTS.md](docs/EXPERIMENTS.md)**, a one-page table of every experiment (Exp 0-82) with its verdict (in French).
 
-- `docs/research_plan_status.md`: Experiments 0-50, with numbers.
-- `docs/agents/REGISTRY.csv`: one line per experiment from Exp 49 to Exp 82 (date, preregistration commit, variants tested, data used, verdict, link).
-- `docs/agents/hypotheses/`: preregistrations, committed before any computation.
-- `docs/agents/results/`: result reports and their criteria (`*_criteria.json`).
-- `docs/agents/validation/`: independent reviews (reproduction, DSR/PBO, red team).
-- `docs/agents/research/`: literature notes and ideas that were dropped before any backtest.
-- `docs/strategy_b/` and `docs/strategy_c/`: specs and research logs for Strategy B (breakout, funding, rotation, index) and Strategy C (microstructure).
-- `scripts/agents/` and `scripts/strategy_*`: the code for each experiment.
+Where to find the details (the write-ups from Exp 51 on are in French):
+
+- [docs/research_plan_status.md](docs/research_plan_status.md): Experiments 0-50, with numbers.
+- [docs/agents/REGISTRY.csv](docs/agents/REGISTRY.csv): one line per experiment from Exp 49 to Exp 82 (date, preregistration commit, variants tested, data used, verdict, link).
+- [docs/agents/](docs/agents/): how the Exp 51-82 process works, and links to:
+  - [hypotheses/](docs/agents/hypotheses/): preregistrations, committed before any computation;
+  - [results/](docs/agents/results/): result reports and their criteria (`*_criteria.json`);
+  - [validation/](docs/agents/validation/): independent reviews (reproduction, DSR/PBO, red team);
+  - [research/](docs/agents/research/): literature notes and ideas that were dropped before any backtest.
+- [docs/strategy_b/](docs/strategy_b/) and [docs/strategy_c/](docs/strategy_c/): specs and research logs for Strategy B (breakout, funding, rotation, index) and Strategy C (microstructure).
+- [scripts/agents/](scripts/agents/) and `scripts/strategy_*`: the code for each experiment.
 
 | Family | Result |
 |---|---|
@@ -85,7 +88,9 @@ python -m pytest -q
 python scripts/download_data.py --symbol BTCUSDT --days 730   # public Binance data, no key
 ```
 
-Data is not included. Scripts expect the layout described in `SPEC.md`; paths can be set with
+Data is not included, nor are generated outputs (trade CSVs, fitted models, caches): the reports
+mention these files, but they are not in the repository. Scripts expect the layout described in
+[SPEC.md](SPEC.md); paths can be set with
 environment variables such as `QB_BAR_CACHE`. This is research code: some scripts need datasets
 you must download first.
 
